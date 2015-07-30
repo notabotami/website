@@ -1,0 +1,7 @@
+class Schedule < ActiveRecord::Base
+
+  #TODO should get the current schedule
+  def self.getCurrentSchedule
+
+  end
+end

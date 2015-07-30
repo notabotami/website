@@ -1,0 +1,36 @@
+<h1><%="Editing #{@user.user_id}'s profile"%></h1>
+
+<%= form_for @user do |f| %>
+
+    <% if @user.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+          <ul>
+            <% @user.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %><br />
+
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %><br />
+
+    <%= f.label :email %>
+    <%= f.text_field :email %><br />
+
+    <%= f.label :phone_number %>
+    <%= f.text_field :phone_number %><br />
+
+    <%= f.label :role %>
+    <%= f.select :role, ["staff", "manager","owner"]%><br/><br/>
+
+    <%= f.submit %><br/><br/>
+<% end %>
+
+<%= link_to "#{@user.user_id}'s profile", @user %>
+<%== if @can_destroy then " | " + link_to("delete #{@user.user_id}'s account", user_path(@user),method: 'delete',data: {confirm: "are you sure you want to delete #{@user.user_id}?"}) end%>

@@ -1,0 +1,2 @@
+module TemplsHelper
+end

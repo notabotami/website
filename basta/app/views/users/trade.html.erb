@@ -1,0 +1,23 @@
+<h2>trade</h2>
+<table class="table table-bordered">
+    <caption>Shift up for trade</caption>
+  <tr>
+    <td >Name: </td>
+    <td ><%=@name%></td>
+  </tr>
+
+  <tr>
+    <td >Section: </td>
+    <td ><%=@shift.section%></td>
+  </tr>
+
+  <tr>
+    <td >Date: </td>
+    <td ><%=@date%></td>
+  </tr>
+</table>
+
+<h3><%="your schedule: pick a shift"%></h3>
+<div id="schedule">
+  <%= render partial: "schedules/trade_schedule", :locals => {:trade => @shift.id} %>
+</div>

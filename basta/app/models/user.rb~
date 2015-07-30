@@ -1,0 +1,30 @@
+class User < ActiveRecord::Base
+  validates :user_id, presence: true, length: {minimum: 1}
+  validates :password, presence: true, length: {minimum: 5, maximum: 32},confirmation: true
+  validates :password_confirmation, presence: true
+  validates :email, length: {minimum: 2},confirmation: true, allow_nil: true
+  validates :role, inclusion: {in: %w(staff manager owner), message: "%{value} is not a valid role"}, allow_nil: true
+  validates :first_name, length: {minimum: 1}, allow_nil: true
+  validates :last_name, length: {minimum: 1}, allow_nil: true
+  validates :session_token, presence: true, length: {minimum: 1}
+  validates :phone_number,  length: {minimum: 10, maximum: 10, message: "%{value} should be 10 digits long"}, allow_nil: true
+
+
+  #takes in a user hash with no session token and creates a User object with a token
+  def self.new_user(no_toke_user_hash)
+    no_toke_user_hash["session_token"] = SecureRandom.base64
+    return self.new(no_toke_user_hash)
+  end
+
+  def self.existsBySessionToken(session_token)
+    users = User.all
+    users.each do |user|
+
+    end
+    return false
+  end
+
+  def self.getNameBySessionToken(session_token)
+    return nil
+  end
+end

@@ -1,0 +1,34 @@
+<head>
+  <%= stylesheet_link_tag 'users' %>
+</head>
+
+<h2>basta employees</h2>
+
+<div id="resizable-table">
+<table class="col-md-12 table-bordered table-striped table-condensed cf">
+
+  <thead class="cf">
+  <tr>
+    <% User.new.attributes.each do |attr, val|%>
+        <%==if !(@secure_attrs.include? attr.to_sym)then "<th>#{User.pretty_attr attr}</th>" end%>
+    <% end %>
+  </tr>
+  </thead>
+    <tbody>
+<% @users.each do |user| %>
+
+  <tr>
+    <% user.attributes.each do |attr, val|%>
+        <%==if !(@secure_attrs.include? attr.to_sym)then
+              "<td data-type=#{User.pretty_attr attr}>#{if (attr.to_sym == :user_id) then
+                       link_to(val, user_path(user)) else UsersHelper.check_if_empyt(val) end}</td>" end%>
+    <% end %>
+
+  </tr>
+<% end %>
+</tbody>
+</table>
+</div>
+<br />
+
+<%= link_to 'add a person', new_user_path %>

@@ -1,0 +1,26 @@
+<h2>user ranks</h2>
+
+<table class="table table-striped">
+  <thead>
+      <tr>
+        <th>name</th>
+        <th>description</th>
+      </tr>
+  </thead>
+
+  <tbody>
+<% @user_ranks.each do |user_rank| %>
+  <tr>
+    <td><%= user_rank.name %></td>
+    <td><%= user_rank.description%></td>
+    <td><%= link_to 'Show', user_rank %></td>
+    <td><%= link_to 'Edit', edit_user_rank_path(user_rank) %></td>
+    <td><%= link_to 'Destroy', user_rank, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</tbody>
+</table>
+
+<br />
+
+<%= link_to 'add user rank', new_user_rank_path %>
