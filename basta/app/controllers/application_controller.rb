@@ -44,6 +44,7 @@ class ApplicationController < ActionController::Base
 
     ApplicationHelper.english = @english
   end
+
   def change_language
 
     logger.tagged("change_language: ") {logger.debug @english}
@@ -60,6 +61,20 @@ class ApplicationController < ActionController::Base
     end
 
     logger.tagged("change_language: ") {logger.debug @english}
+    redirect_to home_path
+  end
+
+  def change_to_english
+    @english = true
+    session[:english_token]= "true"
+
+    redirect_to home_path
+  end
+
+  def change_to_spanish
+    @english = false
+    session[:english_token] = "false"
+
     redirect_to home_path
   end
 end

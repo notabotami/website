@@ -1,0 +1,12 @@
+I"ï(function() {
+  jQuery(function() {
+    $('#schedule_builder_start_date').datepicker({
+      dateFormat: 'yy-mm-dd'
+    });
+    return $('#schedule_builder_end_date').datepicker({
+      dateFormat: 'yy-mm-dd'
+    });
+  });
+
+}).call(this);
+:ET

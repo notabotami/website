@@ -10,6 +10,8 @@
   <%= stylesheet_link_tag 'application', media: "all", "data-turbolinks-track" => true%>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+  <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
 </head>
 <body role="document">
 <div class="container">
@@ -18,12 +20,6 @@
   <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
       <a class="navbar-brand" href="#">48thstreet</a>
     </div>
     <div id="navbarCollapse" class="collapse navbar-collapse taxes-navbar-content">
@@ -32,7 +28,7 @@
         <li> <%= if @english  then link_to("espa&ntildeol".html_safe, change_language_path, :method => 'get') else link_to("english",change_language_path, :method => 'get') end %></li>
       <% if !@current_user %>
 
-          <li><%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "login").html_safe, '/login', :method => 'get') %></li>
+          <li><%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "login").html_safe, '/login', :method => 'get', :class => "hidden") %></li>
       <%else%>
 
             <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "logoff").html_safe,'/logout', :method => 'delete')%></li>
@@ -42,8 +38,11 @@
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "home").html_safe, home_path, :method => 'get',"data-toggle" => "tab") %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "about").html_safe, about_path, :method => 'get', "data-toggle" => "tab") %> </li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "services").html_safe, services_path, :method => 'get', "data-toggle" => "tab") %></li>
+        <li> <%= link_to("itin information") %></li>
+        <li> <%= link_to("questions/answers",'/questions_and_answers', :method => 'get') %></li>
+        <li> <%= link_to("our privacy policy",'/privacy',:method => 'get') %></li>
+        <li> <%= link_to("our location", '/location', :method => 'get') %></li>
 
-        <li class="nav-logo hidden-xs"> <%= image_tag "Menu.svg", :class => "img-responsive hidden-sm big-logo" %></li>
         <% if @current_user %>
             <li><%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "view_profile").html_safe,user_view_profile_path, :method => 'get') %></li>
 
@@ -56,32 +55,54 @@
 
     </div>
       <div id="main" class="container theme-showcase taxes-content" role="main">
+
+        <div class="jumbotron taxes-jumbotron">
+          <h1 class="taxes-centered">48th STREET INCOME TAX SERVICE</h1>
+
+          <br>
+          <p class="right-aligned">
+            <a class="btn btn-lg taxes-button" href="/change_to_english" role="button">English</a>
+            <a class="btn btn-lg taxes-button" href="/change_to_spanish" role="button">Espa&ntildeol</a>
+          </p>
+        </div>
+
         <% flash.each do |name, msg| -%>
             <%= content_tag :div, msg, class: "alert alert-#{name}" %>
         <% end -%>
-        <%= yield %>
+
+            <div class="row">
+              <div class="col-xs-9 ">
+
+                <%= yield %>
+              </div>
+
+              <div class="col-xs-3 ">
+                <%= render 'sidebar/sidebar' %>
+              </div><!-- /.sidebar -->
+
+
+
+              </div>
+            </div><!-- /.row -->
+
+
+            <hr>
+
+            <div class="row">
+              <div class="col-xs-4">
+                <%= link_to(image_tag("natp_logo_words_2.jpg"), "http://www.natptax.com/Pages/default.aspx") %>
+              </div>
+              <div class="col-xs-4">
+                <%= link_to(image_tag("ata_logo.png"), "https://www.atanet.org/") %>
+              </div>
+              <div class="col-xs-4">
+                <%= link_to(image_tag("aipb_logo.png"), "https://www.atanet.org/") %>
+              </div>
+            </div>
       </div>
 
       </div>
 
-<hr>
-
-    <footer>
-      <div class="row">
-        <div class="col-xs-3">
-            <%= link_to(image_tag("natp_logo_words_2.jpg"), "http://www.natptax.com/Pages/default.aspx") %>
-        </div>
-        <div class="col-xs-3">
-          <%= link_to(image_tag("ata_logo.png"), "https://www.atanet.org/") %>
-        </div>
-        <div class="col-xs-3">
-          <%= link_to(image_tag("aipb_logo.png"), "https://www.atanet.org/") %>
-        </div>
-        <div class="col-xs-3">
-          <p></p>
-        </div>
-      </div>
-    </footer>
 </div>
 </body>
 </html>

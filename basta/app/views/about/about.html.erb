@@ -1,37 +1,37 @@
-<div class="row">
-  <div class="col-xs-6 ">
 
-    <h4><%= GeneralHelper.send(ApplicationHelper.get_language_tag + "welcome").html_safe %></h4>
 
-    <hr>
-
-    <h4><%= AboutHelper.send(ApplicationHelper.get_language_tag + "about").html_safe %></h4>
+    <h3 class="taxes-centered"><%= AboutHelper.send(ApplicationHelper.get_language_tag + "about").html_safe %></h3>
 
     <p><%= AboutHelper.send(ApplicationHelper.get_language_tag + "about_para").html_safe %></p>
 
-    <hr>
+<hr>
 
+<div class="panel ">
+  <div class="panel-heading">
     <h4><%= AboutHelper.send(ApplicationHelper.get_language_tag + "mission").html_safe %></h4>
-
+  </div>
+  <div class="panel-body">
     <p><%= AboutHelper.send(ApplicationHelper.get_language_tag + "mission_para").html_safe %></p>
+  </div>
+</div>
+<hr>
 
-    <hr>
-
+<div class="panel ">
+  <div class="panel-heading">
     <h4><%= GeneralHelper.send(ApplicationHelper.get_language_tag + "guarantee").html_safe %></h4>
-
+  </div>
+  <div class="panel-body">
     <p><%= GeneralHelper.send(ApplicationHelper.get_language_tag + "guarantee_para").html_safe %></p>
+  </div>
+</div>
+<hr>
 
-    <hr>
-
+<div class="panel ">
+  <div class="panel-heading">
     <h4><%= GeneralHelper.send(ApplicationHelper.get_language_tag + "dont_wait").html_safe %></h4>
+  </div>
+  <div class="panel-body">
 
     <p><%= GeneralHelper.send(ApplicationHelper.get_language_tag + "call").html_safe %></p>
-
   </div>
-
-  <%= render 'sidebar/sidebar' %>
-
-  <div class="col-xs-3">
-
-  </div>
-</div><!-- /.row -->
+</div>

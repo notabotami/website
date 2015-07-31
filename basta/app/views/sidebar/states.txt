@@ -1,0 +1,56 @@
+
+<ul class="List">
+
+    <li><a href="http://www.ador.state.al.us/" target="_blank">Alabama</a> <span >Alabama Department of Revenue</span> </li>
+    <li><a href="http://www.revenue.state.ak.us/" target="_blank">Alaska</a> <span >Alaska Department of Revenue</span> </li>
+    <li><a href="http://www.revenue.state.az.us/" target="_blank">Arizona</a> <span >Arizona Department of Revenue</span> </li>
+    <li><a href="http://www.state.ar.us/dfa/" target="_blank">Arkansas</a> <span >Arkansas Department of Finance and Administration</span> </li>
+    <li><a href="http://www.boe.ca.gov/" target="_blank">California</a> <span >California State Board of Equalization</span> </li>
+    <li><a href="http://www.ftb.ca.gov/" target="_blank">California</a> <span >California Franchise Tax Board</span> </li>
+    <li><a href="http://www.taxcolorado.com/" target="_blank">Colorado</a> <span >Colorado Department of Revenue</span> </li>
+    <li><a href="http://www.ct.gov/drs/site/default.asp" target="_blank">Connecticut</a> <span >Connecticut Department of Revenue Services</span> </li>
+    <li><a href="http://www.state.de.us/revenue/" target="_blank">Delaware</a> <span >Delaware Division of Revenue</span> </li>
+    <li><a href="http://dor.myflorida.com/dor/" target="_blank">Florida</a> <span >Florida Department of Revenue</span> </li>
+    <li><a href="http://www.etax.dor.ga.gov/" target="_blank">Georgia</a> <span >Georgia Department of Revenue</span> </li>
+    <li><a href="http://www.state.hi.us/tax/tax.html" target="_blank">Hawaii</a> <span >Hawaii Department of Taxation</span> </li>
+    <li><a href="http://tax.idaho.gov/index.html" target="_blank">Idaho</a> <span >State Tax Commission</span> </li>
+    <li><a href="http://www.revenue.state.il.us/" target="_blank">Illinois</a> <span >Illinois Department of Revenue</span> </li>
+    <li><a href="http://www.in.gov/dor/" target="_blank">Indiana</a> <span >Indiana Department of Revenue</span> </li>
+    <li><a href="http://www.state.ia.us/tax/index.html" target="_blank">Iowa</a> <span >Iowa Department of Revenue and Finance</span> </li>
+    <li><a href="http://www.ksrevenue.org/" target="_blank">Kansas</a> <span >Kansas Department of Revenue</span> </li>
+    <li><a href="http://revenue.ky.gov/" target="_blank">Kentucky</a> <span >Kentucky Revenue Cabinet–Online Taxpayer Service Center</span> </li>
+    <li><a href="http://www.rev.state.la.us/" target="_blank">Louisiana</a> <span >Louisiana Department of Revenue</span> </li>
+    <li><a href="http://www.state.me.us/revenue" target="_blank">Maine</a> <span >Maine Revenue Services</span> </li>
+    <li><a href="http://www.comp.state.md.us/default.asp" target="_blank">Maryland</a> <span >Maryland</span> </li>
+    <li><a href="http://www.dor.state.ma.us/" target="_blank">Massachusetts</a> <span >Massachusetts</span> </li>
+    <li><a href="http://www.michigan.gov/treasury" target="_blank">Michigan</a> <span >Michigan Department of Treasury</span> </li>
+    <li><a href="http://www.taxes.state.mn.us/" target="_blank">Minnesota</a> <span >Minnesota Department of Revenue</span> </li>
+    <li><a href="http://www.mstc.state.ms.us/" target="_blank">Mississippi</a> <span >Mississippi Tax Commission</span> </li>
+    <li><a href="http://www.dor.mo.gov/index.htm" target="_blank">Missouri</a> <span >Missouri Department of Revenue</span> </li>
+    <li><a href="http://www.discoveringmontana.com/revenue/default.asp" target="_blank">Montana</a> <span >Department of Revenue</span> </li>
+    <li><a href="http://www.revenue.state.ne.us/index.html" target="_blank">Nebraska</a> <span >Nebraska</span> </li>
+    <li><a href="http://tax.state.nv.us/" target="_blank">Nevada</a> <span >Department of Taxation</span> </li>
+    <li><a href="http://www.state.nh.us/revenue/index.htm" target="_blank">New Hampshire</a> <span >New Hampshire Department of Revenue Administration</span> </li>
+    <li><a href="http://www.state.nj.us/treasury/taxation/" target="_blank">New Jersey</a> <span >New Jersey Division of Taxation</span> </li>
+    <li><a href="http://www.tax.newmexico.gov/" target="_blank">New Mexico</a> <span >New Mexico Taxation and Revenue</span> </li>
+    <li><a href="http://www.tax.ny.gov/" target="_blank">New York</a> <span >New York Department of Taxation &amp; Finance</span> </li>
+    <li><a href="http://www.dor.state.nc.us/" target="_blank">North Carolina</a> <span >North Carolina Department of Revenue</span> </li>
+    <li><a href="http://www.nd.gov/tax/" target="_blank">North Dakota</a> <span >North Dakota State Tax Department</span> </li>
+    <li><a href="http://tax.ohio.gov/" target="_blank">Ohio</a> <span >Ohio Department of Taxation</span> </li>
+    <li><a href="http://www.oktax.state.ok.us/" target="_blank">Oklahoma</a> <span >Oklahoma Tax Commission</span> </li>
+    <li><a href="http://www.oregon.gov/DOR/" target="_blank">Oregon</a> <span >Oregon Department of Revenue</span> </li>
+    <li><a href="http://www.revenue.state.pa.us/" target="_blank">Pennsylvania</a> <span >Pennsylvania</span> </li>
+    <li><a href="http://www.tax.ri.gov/" target="_blank">Rhode Island</a> <span >Rhode Island Division of Taxation</span> </li>
+    <li><a href="http://www.sctax.org/" target="_blank">South Carolina</a> <span >South Carolina Department of Revenue</span> </li>
+    <li><a href="http://www.state.sd.us/drr2/Revenue.html" target="_blank">South Dakota</a> <span >South Dakota</span> </li>
+    <li><a href="http://www.state.tn.us/revenue/" target="_blank">Tennessee</a> <span >Tennessee</span> </li>
+    <li><a href="http://www.window.state.tx.us/m23taxes.html" target="_blank">Texas</a> <span >Window on State Government–Texas Taxes</span> </li>
+    <li><a href="http://revenue.state.wy.us/" target="_blank">Wyoming</a> <span >Wyoming Department of Revenue</span> </li><li><a href="http://tax.utah.gov/" target="_blank">Utah</a> <span >Utah State Tax Commission</span> </li>
+    <li><a href="http://www.state.vt.us/tax/" target="_blank">Vermont</a> <span >Vermont Department of Taxes</span> </li>
+    <li><a href="http://www.tax.virginia.gov/" target="_blank">Virginia</a> <span >Virginia Department of Taxation</span> </li>
+    <li><a href="http://dor.wa.gov/" target="_blank">Washington</a> <span >Washington Department of Revenue</span> </li>
+    <li><a href="http://cfo.dc.gov/otr/site/default.asp" target="_blank">Washington D.C.</a> <span >Office of Tax and Revenue</span> </li>
+    <li><a href="http://www.wvrevenue.gov/" target="_blank">West Virginia</a> <span >West Virginia Department of Revenue</span> </li>
+    <li><a href="http://www.revenue.wi.gov/" target="_blank">Wisconsin</a> <span >Wisconsin Department of Revenue</span> </li>
+
+</ul>

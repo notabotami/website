@@ -1,0 +1,13 @@
+I"	(function() {
+  jQuery(function() {
+    $('.dropdown-toggle').dropdown();
+    $('#preference_start_date').datepicker({
+      dateFormat: 'yy-mm-dd'
+    });
+    return $('#preference_end_date').datepicker({
+      dateFormat: 'yy-mm-dd'
+    });
+  });
+
+}).call(this);
+:ET

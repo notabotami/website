@@ -165,11 +165,11 @@ el mayor reembolso posible bajo las leyes tributarias."
   #####
 
   def self.en_offer7
-    return "Translations and Interpretation Services"
+    return "Translations and Interpretation Services (English and Spanish)"
   end
 
   def self.es_offer7
-    return "Servicio de Traducciones e Interpretacion"
+    return "Servicio de Traducciones e Interpretacion (Ingles y Espa&ntildeol)"
   end
 
   #####

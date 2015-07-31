@@ -24,8 +24,7 @@ module GeneralHelper
 
   def self.en_guarantee_para
     return "If you are not completely satisfied with your income tax return
-preparation, you are not obligated to file with us and do not have to pay
-for the preparation of your tax return.  However, if you decide
+preparation, you are not obligated to file with us.  However, if you decide
 to file with us, you can be confident knowing that we stand behind
 our work."
   end
@@ -33,8 +32,7 @@ our work."
   def self.es_guarantee_para
     return "Si usted no est&aacute completamente stasifecho con la preparaci&oacuten de su
 declaraci&oacuten de impuestos, usted no est&aacute obligado a presentar
-su declaraci&oacuten a las agencias tributaria por medio de nosotros y no tiene que
-pagarnos por la preparaci&oacuten de su declaraci&oacuten de impuestos.  Sin
+su declaraci&oacuten a las agencias tributaria por medio de nosotros.  Sin
 embargo, si usted decide presentar su declaraci&oacuten de impuestos con nosotros,
 puede tener la certeza de saber que nuestro servicio es garantizado y apoyado
 con experiencia y profesionalismo.  Nuestro equipo de trabajo labora con un alto

@@ -3,7 +3,7 @@
  *= require font-awesome
  *= require bootstrap
  *= require_self
- *= require jquery.ui.datepicker
+ *= require jquery-ui/datepicker
  *= require bootstrap-theme.css
  */
 
@@ -38,6 +38,9 @@
 .navbar-nav{
 
 }
+.navbar-default{
+
+}
 
 .navbar{
   min-height: 28px !important;
@@ -64,7 +67,8 @@
 }
 .sidebar-module-inset {
   padding: 15px;
-  background-color: #f5f5f5;
+  background-color: #324C7F;
+  color: #ffffff;
   border-radius: 4px;
 }
 .sidebar-module-inset p:last-child,
@@ -76,4 +80,51 @@
 .blog-main {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.scrollable-menu {
+  height: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+}
+
+.taxes-centered{
+  text-align: center;
+
+}
+
+
+p{
+  text-align: justify;
+}
+
+.taxes-jumbotron{
+  background-color: #324C7F;
+}
+
+.taxes-jumbotron h1{
+  color: #ffffff;
+}
+.taxes-jumbotron p{
+  color: #ffffff;
+}
+.right-aligned{
+  text-align: right;
+}
+
+.taxes-button{
+  color: #ffffff;
+  background-color: #5C85AD;
+}
+
+.panel-heading{
+  color: #ffffff;
+  background-color: #324C7F;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Corben', Georgia, Times, serif;
+  text-transform: uppercase;
+}
+p, div {
+  font-family: 'Nobile' Helvetica, Arial, sans-serif;
 }

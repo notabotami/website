@@ -8,7 +8,7 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require turbolinks
-//= require jquery.ui.datepicker
+//= require jquery-ui/datepicker
 //= require_tree .
 
 
