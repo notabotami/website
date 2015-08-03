@@ -19,7 +19,7 @@ module PrivacyHelper
   end
 
   def self.es_privacy_policy_para1
-    return "En 48TH STREET INCOME TAX SERVICE  , proteger su privacidad es muy importante.
+    return "En 48TH STREET INCOME TAX SERVICE, proteger su privacidad es muy importante.
 Nos aseguramos que cualquier información que usted nos otorgue mantenga su integridad.
 Esta información puede provenir de su organizador de impuestos, hojas de cálculo, documentos,
 entrevistas en persona, y/o llamádas telefónicas. "
@@ -57,11 +57,11 @@ impuestoes y otros servicios que proporcionamos. La información que recibimos y
   #####
 
   def self.en_information_list
-    return "<li>Name</li>
+    return "<li>Full Name</li>
     <li>Address</li>
-    <li>Phone</li>
-    <li>Email</li>
-    <li>Social Security Number</li>
+    <li>Telephone Number</li>
+    <li>Email Address</li>
+    <li>Social Security Number (SSN), ITIN, ATIN</li>
     <li>Date of Birth</li>
     <li>Filing Status</li>
     <li>Name of Spouse and/or Dependents</li>
@@ -69,23 +69,23 @@ impuestoes y otros servicios que proporcionamos. La información que recibimos y
     <li>Date of Birth of Spouse and/or Dependents</li>
     <li>W-2 Information for you and/or Spouse</li>
     <li>W-2G Information for you and/or Spouse</li>
-    <li>And any other information that might be pertinent for the services we provide</li>"
+    <li>And any and all information pertaining to services we provide</li>"
   end
 
   def self.es_information_list
-    return "<li>Nombre </li>
-<li>Direcció</li>
+    return "<li>Nombre Completo </li>
+<li>Dirección</li>
 <li>Número de Teléfono</li>
 <li>Correo Electrónico</li>
 <li>Número de Seguro Social (SSN), ITIN, ATIN</li>
 <li>Fechas de Nacimiento</li>
-<li>Estado de Presentación de Planillas</li>
+<li>Estado Civil en Presentación de Planillas</li>
 <li>Nombre de Esposo/a y de Dependes</li>
 <li>Número de Seguro Social (SSN), ITIN, ATIN de Esposo/a y de Dependes</li>
 <li>Fechas de Nacimiento de Esposo/a y de Dependes</li>
 <li>W-2 Información de Esposo/a y de Dependes</li>
 <li>W-2G Información de Esposo/a</li>
-<li>Y cualquier otra información que puede ser pertinente para los servicios que ofrecemos.</li>
+<li>Y cualquier y toda información pertinente para los servicios que ofrecemos.</li>
 "
   end
 

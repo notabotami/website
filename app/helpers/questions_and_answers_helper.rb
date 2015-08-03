@@ -40,11 +40,11 @@ ubicaci&oacuten."
   ######
 
   def self.en_what_address
-    return "What is 48TH STREET INCOME TAX SERVICE's  mailing address?"
+    return "What is 48TH STREET INCOME TAX SERVICE's mailing or email address?"
   end
 
   def self.es_what_address
-    return "Cual es la direcci&oacuten para enviar correspondencia a
+    return "Cual es la direcci&oacuten para enviar correspondencia o correo electronico de
 48TH STREET INCOME TAX SERVICE?"
   end
 
@@ -58,7 +58,12 @@ ubicaci&oacuten."
       <br>
       109 S Main St
       <br>
-      Denison, IA 51442"
+      Denison, IA 51442
+<br>
+Our email address is:
+<br>
+<br>
+48thstreetincometax@gmail.com"
   end
 
   def self.es_what_address_para
@@ -69,7 +74,12 @@ ubicaci&oacuten."
 <br>
 109 S Main St
 <br>
-Denison, IA 51442"
+Denison, IA 51442
+<br>
+<br>
+Nuestra direcci&oacuten para correo electronico es:
+<br>
+48thstreetincometax@gmail.com"
   end
 
   ######
@@ -92,15 +102,20 @@ SERVICE?"
       maintains year-round help after tax season, no appointment is needed, for your convenience.
       <br>
       <br>
-      Call today (712)263-3313 to make your appointment!"
+      However, if you would prefer an appointment, you can call our office at (712)263-3313 or at our toll free number
+(888) 405-2320!"
   end
 
   def self.es_what_hours_para
-    return "Durante la epoca de preparaci&oacuten de impuestos, Enero
+    return "Durante la temporada de preparaci&oacuten de impuestos, Enero
 15 hasta Abril 30, nuestra oficina esta abierta de Lunes a Viernes de
-9:00 am a 8:00 pm y los S&aacutebados de 9:00 am a 6:00 pm.  Adicionalmente
-y para su conveniencia, 48th STREET INCOME TAX SERVICE tiene la habilidad
-de ayudar a nuestros clientes durante todo el a&ntildeo por medio de citas."
+9:00 am a 7:30 pm y los S&aacutebados de 9:00 am a 6:00 pm.  Adicionalmente
+y para su conveniencia, 48th STREET INCOME TAX SERVICE se mantiene abierto
+durante todo el a&ntildeo para ayudar a nuestros clientes.
+<br>
+<br>
+Si usted prefiere citas, favor de llamarnos al numero (712) 263-3313 o al numero de telefono gratuito
+(888) 405-2320."
   end
 
   ######
@@ -131,7 +146,7 @@ de mis impuestos?"
       <br>
       <br>
 
-      <b>Don’t just get people – Get a Person who knows you!</b>
+      <b>Don’t just get a service – Get a Person who knows you!</b>
 "
   end
 
@@ -153,8 +168,7 @@ cr&eacuteditos, y reembolso m&aacutes grande posible bajo las leyes tributarias.
       <br>
 
       <b>
-No solamente vaya con personas - vay con personas que le conocen y le dar&aacuten
-el mejor servicio!
+No solamente obtenga un servicio  - Vaya con Personas que los Conozcan.
 </b>"
   end
 
@@ -200,16 +214,17 @@ y abrir los archivos adjuntos a su e-mail"
   def self.en_how_taxes_para
     return "      Tax preparation fees are based on the complexity of the return.
       Our fees are usually reasonable, we are privately owned and operated with lower operating and
-      overhead costs. Call our office for detailed pricing at (712)263-3313."
+      overhead costs. Call our office for detailed pricing at (712)263-3313 or at our toll free number
+(888) 405-2320."
   end
 
   def self.es_how_taxes_para
     return "Honorarios por la preparaci&oacuten de impuestos se basan en la
 complejidad de sus planillas.  Nuestros honorarios son generalmente m&aacutes
-bajos que nuestros competidores, ya que somos una compania independiente y
-nuestros gastos de operaci&oacuten son generalmente m&aacutes bajos, podemos
-ofrecerle precios m&aacutes comodos.  Llame a nuestra oficina al
-(712) 263-3313 para conocer con detalle la estructura de nuestros honorarios."
+razonables, ya que somos una compania independiente y
+nuestros gastos de operaci&oacuten son m&aacutes bajos,  Llame a nuestra oficina al
+(712) 263-3313  o al numero de telefono gratuito
+(888) 405-2320 para conocer con detalle la estructura de nuestros honorarios."
   end
 
   ######
@@ -219,7 +234,7 @@ ofrecerle precios m&aacutes comodos.  Llame a nuestra oficina al
   end
 
   def self.es_what_preparation
-    return "Cuales documentos debo traer para la preparaci&oacuten de mis impuestos?"
+    return "Que debo traer a 48th STREET INCOME TAX SERVICE para la preparaci&oacuten de impuestos?"
   end
 
   ######
@@ -281,6 +296,9 @@ ofrecerle precios m&aacutes comodos.  Llame a nuestra oficina al
       <li>Student Loan Interest</li>
     </ul>
 
+<br>
+<br>
+
     <h5>TAX CREDITS:</h5>
     <ul>
       <li>Child Care Provider's Name, Address, Employer Identification Number (EIN) or Social Security Number (SSN), and amount paid</li>
@@ -293,25 +311,25 @@ ofrecerle precios m&aacutes comodos.  Llame a nuestra oficina al
 
   def self.es_what_preparation_para
     return "La siguiente es una lista de documentos que usted debe de
-traer a su cita con 48TH STREET INCOME TAX SERVICE (si se aplican a
+traer a su cita en 48TH STREET INCOME TAX SERVICE (si se aplican a
 su situaci&oacuten):
 
       <br>
       <br>
 
-      <h5>PERSONAL INFORMATION FOR EACH FAMILY MEMBER:</h5>
+      <h5>Informaci&oacuten Personal para Cada Miembro de la Familia:</h5>
         <ul>
-          <li>Nombre</li>
+          <li>Nombre Completo</li>
           <li>Fecha de Nacimiento</li>
           <li>Tarjeta del Seguro Social/ITIN/ATIN</li>
           <li>Impuestos del a&ntildeo pasado</li>
-          <li>Identification Estatal</li>
+          <li>Licencia de conducir válida</li>
         </ul>
 
     <br>
     <br>
 
-    <h5>Informacion de Ingresos</h5>
+    <h5>Informacion de Ingresos y Impuestos</h5>
     <ul>
       <li>Formularios por su Empleo (W-2)</li>
       <li>Intereses (1099-INT)</li>
@@ -352,6 +370,9 @@ pagados por propiedades personales</li>
 Universidad</li>
     </ul>
 
+<br>
+<br>
+
     <h5>Cr&eacuteditos Fiscales</h5>
     <ul>
       <li>Cuidado Infantil: Nombre del proveedor, Direcci&oacuten,
@@ -366,11 +387,11 @@ Seguro Social (SSN), o ITIN, y el importe pagado</li>
   ######
 
   def self.en_does_e_file
-    return "Does 48TH STREET INCOME TAX SERVICE offer e-file? "
+    return "Does 48TH STREET INCOME TAX SERVICE offer efile? "
   end
 
   def self.es_does_e_file
-    return "Ofrece 48TH STREET INCOME TAX SERVICE servicios e-file?"
+    return "Ofrece 48TH STREET INCOME TAX SERVICE servicios efile?"
   end
 
   ######

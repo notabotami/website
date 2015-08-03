@@ -15,6 +15,7 @@ BastaScheduler::Application.routes.draw do
   get '/contact_us', to: 'contact_us#contact_us'
   get '/employee_application', to: 'employee_application#employee_application'
   get '/sample_email', to: 'email#sample_email'
+  get '/itin', to: 'itin#itin'
 
   get '/change_language', to: 'application#change_language'
   get '/change_to_english', to: 'application#change_to_english'

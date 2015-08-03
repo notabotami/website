@@ -129,7 +129,7 @@ plazo de 24 a 48 horas"
 
   def self.en_amended_returns_para
     return "We can amend your income tax return free of charge as long as
-we prepared teh original tax return and the reason for the
+we prepared the original tax return and the reason for the
 ammendement is due to an error on our part.  We charge a small fee
 for amendments on returns that were not initially processed
 by 48th Street Income Tax Service"
@@ -140,7 +140,7 @@ by 48th Street Income Tax Service"
 impuestos de forma gratuita, siempre y cuando nosotros hayamos
 preparado su declaraci&oacuten de impuestos y la raz&oacuten de
 la enmienda se deba a un error cometido por nuestra parte.  Cobramos
-una peque&ntildea candtidad por procesar enmiendas a las solicitudes
+una peque&ntildea cantidad por procesar enmiendas de retornos
 de impuestos que no fueron inicialmente procesadas por 48th Street
 Income Tax Service."
   end
@@ -164,7 +164,7 @@ state, including audits letter and inquiries about your tax return"
 
   def self.es_correspondence_para
     return "Nosotros le ayudamos con cualquier correspondencia que usted
-reciba del IRS y del estado, incluyendo cartas de auditor&iacute e
+reciba del IRS y del estado, incluyendo cartas de auditor&iacutea e
 investigaciones que el gobierno le mande acerca de su declarac&iacuteon
 de impuestos."
   end
@@ -187,10 +187,9 @@ help you to arrange a monthly payment plan with the IRS."
   end
 
   def self.es_payment_plans_para
-    return "Si usted le debe pagos de impuestos al IRS sobre el
-a&ntildeo tributario corriente, nosotros le podemos ayudar a negociar
-un plan de pago mensual con el IRS para que usted no tenga
-que pagar su deuda en un solo pago."
+    return "Si usted debe impuestos al IRS sobre el presente
+a&ntildeo tributario, nosotros le podemos ayudar a negociar
+un plan de pago mensual con el IRS."
   end
 
   #####
@@ -217,16 +216,16 @@ it also helps you get your refund faster!"
   end
 
   def self.es_electronic_filing_para
-    return "La presentaci&oacuten electr&oacutenica de su planilla
+    return "Presentaci&oacuten electr&oacutenica de su planilla
 de impuestos es el m&eacutetodo m&aacutes r&aacutepido de
 transmisi&oacuten de su declaraci&oacuten de impuestos
 directamente al Servicio Interno Tributario - Internal Revenue
-Service (IRS) y el Deparamento de Ingresos de su estado. Nuestro
+Service (IRS) y el Deparamento de Renta Tributaria de su estado. Nuestro
 sistema de presentaci&oacuten electr&oacutenica tiene un doble
 control para verifical la exactitud de su declarac&iacuteon de impuestos
 antes de presentarla al IRS para su aprobaci&oacuten.  La
 presentaci&oacuten electr&oacutenica, o e-filing, no s&oacutelo
-aumenta la exactitud de su regreso, sino que tambi&eacuten le
+aumenta la exactitud de su declaraci&oacuten, sino que tambi&eacuten le
 ayuda a obtener su reembolso m&aacutes r&aacutepido!"
   end
 
@@ -255,7 +254,7 @@ bancaria junto con la presentaci&oacuten electr&oacutenica, usted
 puede tener su devoluci&oacuten de impuestos depositados
 en su cuenta de cheques o de ahorros, por lo general dentro de 8 a 15
 dias.  Todos los honorarios se pagan en el momento de aceptar
-nuestro servicio para este servicio."
+nuestro servicio para esta funci&oacuten."
   end
 
   #####
@@ -283,7 +282,7 @@ de reembolso de impuestos por correo directamente de el IRS o el
 Estado.  Este servicio toma d 18 a 21 dias para recibir su reembolso
 cuando se combina con la presentaci&oacuten electr&oacutenica.
 Todos los honorarios se paga en ele momento de aceptar nuestro
-servicio para este servicio."
+servicio para esta funci&oacuten."
   end
 
   #####
@@ -322,11 +321,11 @@ recibe su reembolso."
   #####
 
   def self.en_free_copies
-    return "Free copies of your Tax Return"
+    return "Copies of your Tax Return"
   end
 
   def self.es_free_copies
-    return "Copias Gratuitas de su Declaraci&oacuten de Impuestos"
+    return "Copias de su Declaraci&oacuten de Impuestos"
   end
 
   #####
@@ -334,14 +333,14 @@ recibe su reembolso."
   def self.en_free_copies_para
     return "If you had your income tax preparation with 48th Street
 Income Tax Service, you can get copies of your income tax return
-(s) up to three years after the return was initially filed."
+(s) for a minimal fee up to three years after the return was initially filed."
   end
 
   def self.es_free_copies_para
     return "Si 48th Street Income Service le prepar&oacute sus planillas
-de impuestos, usted puede obtener copias gratuitas de su declaraci&oacuten
-de impuestos hasta tres a&ntilderos despu&eacutes de cuando sus
-planillas fueron inicialmente preparadas"
+de impuestos, usted puede obtener copias de su declaraci&oacuten
+de impuestos por una cantidad minima hasta tres a&ntildeos despu&eacutes de cuando
+ fueron inicialmente preparadas sus planillas."
   end
 
   #####
@@ -362,8 +361,8 @@ always free at 48th Street Income Tax Service"
   end
 
   def self.es_free_consultation_para
-    return "Informaci&oacuten y consultas acerca de su situaci&oacuten
-individual itributaria siempre es totalemente grat&iacutes en 48th
+    return "Informaci&oacuten y consultas acerca de su declaraci&oacuten de
+impuestos siempre sera grat&iacutes en 48th
  Street Income Tax Service."
   end
 
@@ -399,7 +398,7 @@ muchas veces se pasan por alto."
   end
 
   def self.es_notary_services
-    return "Servicios Notariales"
+    return "Servicios de Notarizaciones (Notary Services)"
   end
 
   #####
@@ -430,8 +429,10 @@ para ejecutar este labor."
   #####
 
   def self.en_translations_para
-    return "Document translations and in-person interpretations
-in English and Spanish."
+    return "We specialize in translating documents in English and Spanish.
+Our translated documents are designed in such a way that they look similar to
+the original documents to make it easier to understand and compare.  We also offer
+services in interpretation in person or by phone."
   end
 
   def self.es_translations_para

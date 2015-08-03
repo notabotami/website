@@ -18,8 +18,8 @@ module AboutHelper
   and Clemente Velasco after working for more than ten years for one of the
   big national labor Unions in the United States.  As the Founder and Chief
   Executive Officer of 48th Street Income Tax Service, Velasco believes that each
-  client should receive superior customer service while doing business with
-  our company.  These personal values shape the corporate culture at 48th Street
+  client should receive excellent customer service while doing business with
+48th Street Income Tax Service.  These personal values shape the culture at 48th Street
   Income Tax Service and align with it's core values."
   end
 
@@ -28,10 +28,11 @@ module AboutHelper
 del a&ntildeo 2004 por Alicia Lopez y Clemente Velasco depues de
 trabajar por m&aacutes de diez a&ntildeos para una de las m&aacutes
 grandes sindicados de los Estados Unidos.  Como el fundador y
-Jefe Ejecutivo Oficial de 48th Street Income Tax Service.  Velasco
-cree que cad cliente debe de recibir el servicio de atenci&oacuten de
-la m&aacutes alta calidad de nuestra compania.  Estos valores
-personales son los que dirigen nuestra cultura empresarial."
+CEO de 48th Street Income Tax Service.  Velasco
+cree que cada cliente debe de recibir un servicio excellente de nuestra compania.
+Estos valores
+personales son los que dirigen nuestra cultura empresarial en 48th Street Income Tax Service, alig&ntildeandose con
+sus valores fund."
   end
 
   #####

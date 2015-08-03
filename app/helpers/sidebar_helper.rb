@@ -3,12 +3,14 @@ module SidebarHelper
   def self.en_contact_us
     return "<h4>Contact Us!</h4>
         <p>
-          phone:
+          Phone:
           <br>
           712-263-3313
+<br>
+1(888)405-2320
           <br>
           <br>
-          address:
+          Address:
           <br>
           109 S Main St, Denison, IA 51442
           <br>
@@ -35,11 +37,11 @@ module SidebarHelper
   ######
 
   def self.en_refund_status
-    return "Refund Status"
+    return "Where is my Refund?"
   end
 
   def self.es_refund_status
-    return "Estado de Reembolso"
+    return "Donde esta mi Reembolso?"
   end
 
   ######
@@ -81,18 +83,18 @@ module SidebarHelper
   end
 
   def self.es_refund_status_state
-    return "Escoje un Estado Para Ver el Estado de Reembolso "
+    return "Escoje un Estado Para Ver el Status de Reembolso "
   end
 
   ######
 
 
   def self.en_irs_information
-    return "IRS Information"
+    return "IRS Information And Related Links"
   end
 
   def self.es_irs_information
-    return "Informaci&oacuten del IRS"
+    return "Informaci&oacuten del IRS y Otras Paginas Importantes"
   end
 
   ######
@@ -225,7 +227,7 @@ cantidad del reembolso hasta analizar su situación individual."
   def self.en_testimonial1
     return "The IRS had denied my ITIN applications many times in the past,
 and I did not receive the refunds I was due...
-Just as I was promised, 48TH STREET INCOME TAX SERVICE was able to obtain my
+48TH STREET INCOME TAX SERVICE was able to obtain my
 ITIN numbers and my income tax refunds...
 <br>
 <br>
@@ -235,8 +237,8 @@ ITIN numbers and my income tax refunds...
 
   def self.es_testimonial1
     return "El IRS había negado mis aplicaciones de ITIN muchas veces en el
-pasado, y no me dieron las devoluciones de impuestos que me merecía…
-Tal como lo prometieron, 48TH STREET INCOME TAX SERVICE  obtuvo mis números de
+pasado, y no me dieron las devoluciones de reembolso que me merecía…
+48TH STREET INCOME TAX SERVICE  obtuvo mis números de
 ITIN y mis reembolsos de impuestos…
 <br>
 <br>
@@ -249,8 +251,8 @@ ITIN y mis reembolsos de impuestos…
   def self.en_testimonial2
     return "Another income tax preparer had done my income taxes incorrectly
 and the IRS and the State were charging me hundreds of dollars for back taxes –
-48TH STREET INCOME TAX SERVICE  was not only able to stop the collections, but was
-also able to get my refunds I was actually due..
+48TH STREET INCOME TAX SERVICE  was not only able to stop the levy, but
+also was able to get my refunds..
 <br>
 <br>
 -Maria Sanchez.
@@ -260,8 +262,8 @@ also able to get my refunds I was actually due..
   def self.es_testimonial2
     return "Otro “preparador de impuestos” había hecho mis impuestos mal y el IRS y
 el estado me estaban cobrando cientos de dólares en impuestos atrasados –
-48TH STREET INCOME TAX SERVICE no sólo paró las cobranzas, sino que
-también me obtuvieron reembolsos de impuestos…
+48TH STREET INCOME TAX SERVICE no sólo paró las cobranzas,
+también me obtuvieron mi reembolsos de impuestos…
 <br>
 <br>
 -Maria Sanchez.
@@ -271,7 +273,9 @@ también me obtuvieron reembolsos de impuestos…
   ######
 
   def self.en_testimonial3
-    return "I've been living in the United States for 7 years and I had never done my taxes in the past because I was afraid and didn't understand... 48TH STREET INCOME TAX SERVICE was able to obtain 4 years of income tax refunds for me!
+    return "I've been living in the United States for 7 years and I had never
+filed my tax return in the past because I was afraid and didn't understand the tax law...
+48TH STREET INCOME TAX SERVICE was able to obtain 4 years of income tax refunds for me!
 
 <br>
 <br>
@@ -280,7 +284,10 @@ también me obtuvieron reembolsos de impuestos…
   end
 
   def self.es_testimonial3
-    return "He estado en los EEUU durante 7 años ahora y yo nunca había hecho mis impuestos en el pasado, porque tuve miedo y no entendía… ¡ 48TH STREET INCOME TAX SERVICE me obtuvo 4 años de devoluciones de impuestos!
+    return "He estado en los EEUU durante 7 años ahora y yo nunca
+había hecho mis impuestos en el pasado,
+porque tuve miedo y no entendía las leyes tributarias… ¡ 48TH STREET INCOME TAX SERVICE
+me obtuvo 4 años de devoluciones de impuestos atrasados!
 
 <br>
 <br>
@@ -292,7 +299,9 @@ también me obtuvieron reembolsos de impuestos…
 
 
   def self.en_testimonial4
-    return "I'm a small business owner - my previous accountant never explained to me about the deductions I could take - 48TH STREET INCOME TAX SERVICE helped me to understand how much more money I can save by having better control of my expenses...
+    return "I own a small business - my previous tax preparer never explained to me about the deductions I could take -
+48TH STREET INCOME TAX SERVICE helped me to understand how much money I can save and how i can have
+better control of my expenses...
 
 <br>
 <br>
@@ -301,7 +310,9 @@ también me obtuvieron reembolsos de impuestos…
   end
 
   def self.es_testimonial4
-    return "Tengo una pequeña empresa – mi contador anterior nunca me explicó las deducciones que yo puedo tomar – 48TH STREET INCOME TAX SERVICE me ayudó a entender cuánto dinero puedo ahorrarme al tener mejor control de mis gastos…
+    return "Tengo una pequeña empresa – mi preparador de impuestos anterior nunca me explicó las deducciones
+que yo puedo tomar – 48TH STREET INCOME TAX SERVICE me ayudó a entender como puedo
+ahorrar dinero y tener mejor control de mis gastos…
 
 <br>
 <br>
@@ -313,7 +324,8 @@ también me obtuvieron reembolsos de impuestos…
 
 
   def self.en_testimonial5
-    return "48TH STREET INCOME TAX SERVICE is fast and efficient, and I like to know that they process my tax returns through E-file for FREE.
+    return "48TH STREET INCOME TAX SERVICE is fast and efficient, and I like to know that they process my tax returns through E-file for FREE
+and with confidence.
 
 <br>
 <br>
@@ -323,6 +335,7 @@ también me obtuvieron reembolsos de impuestos…
 
   def self.es_testimonial5
     return "48TH STREET INCOME TAX SERVICE es rápido y eficiente, y me gusta saber que procesan mis impuestos electrónicamente GRATIS
+y con confianza.
 
 <br>
 <br>
@@ -335,14 +348,19 @@ también me obtuvieron reembolsos de impuestos…
 
 
   def self.en_testimonial6
-    return "I chose 48TH STREET INCOME TAX SERVICE because with them, I do not have to worry about anything... An appointment is not needed... and I was surprised to know about the refund I could receive - I did not know about the Child Tax Credit that could give me an additional $1,000 refund per child!
+    return "I chose 48TH STREET INCOME TAX SERVICE because with them, I do not have to worry about anything...
+An appointment is not needed... and I was surprised to know about the refund
+I could receive - I did not know about the Child Tax Credit that could give me an additional $1,000 refund per child!
 <br>
 <br>
 -Martha Marquez."
   end
 
   def self.es_testimonial6
-    return "Escogí a 48TH STREET INCOME TAX SERVICE porque con ellos no me tengo que preocupar de nada... No se necesita cita... Yo me sorprendí del dinero que ellos me ahorrarón – no sabia que con el crédito de los niños (Child Tax Credit) me dan ¡$1,000 adicionales de reembolso por niño!
+    return "Escogí a 48TH STREET INCOME TAX SERVICE porque con ellos no me
+tengo que preocupar de nada... No se necesita cita... Yo me sorprendí del dinero
+que ellos me ahorrarón – no sabia que con el crédito de los niños (Child Tax Credit) me
+dan ¡$1,000 adicionales de reembolso por niño!
 
 <br>
 <br>

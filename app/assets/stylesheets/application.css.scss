@@ -81,6 +81,12 @@
 
 }
 
+.taxes-centered-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 
@@ -119,6 +125,13 @@
 .taxes-sidebar li{
   font-size: 1.2em;
   padding: 10px;
+}
+.taxes-caption-text{
+  padding-left: 10px;
+}
+
+li.even{
+  color: rgb(80,50,120);
 }
 body{
   font-size: 150%;

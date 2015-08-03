@@ -44,12 +44,13 @@
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "home").html_safe, home_path, :method => 'get',"data-toggle" => "tab") %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "about").html_safe, about_path, :method => 'get', "data-toggle" => "tab") %> </li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "services").html_safe, services_path, :method => 'get', "data-toggle" => "tab") %></li>
-
+        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "itin").html_safe, '/itin', :method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "questions_and_answers").html_safe,'/questions_and_answers', :method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "privacy").html_safe,'/privacy',:method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "location").html_safe, '/location', :method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe, '/contact_us', :method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "employee_application").html_safe, '/employee_application', :method => 'get') %></li>
+
         <li> <%= link_to('email', '/sample_email', :method => 'get') %></li>
 
         <% if @current_user %>
@@ -69,10 +70,12 @@
           <h1 class="taxes-centered">48th STREET INCOME TAX SERVICE</h1>
 
           <br>
-          <p class="right-aligned">
-            <a class="btn btn-lg taxes-button" href="/change_to_english" role="button">English</a>
-            <a class="btn btn-lg taxes-button" href="/change_to_spanish" role="button">Espa&ntildeol</a>
-          </p>
+
+              <p class="right-aligned">
+                <a class="btn btn-lg taxes-button" href="/change_to_english" role="button">English</a>
+                <a class="btn btn-lg taxes-button" href="/change_to_spanish" role="button">Espa&ntildeol</a>
+              </p>
+
         </div>
 
         <% flash.each do |name, msg| -%>
@@ -98,30 +101,34 @@
 
             <hr>
 
+            <h4 class="taxes-centered">We are members of, certified by, or authorized for the following:</h4>
+            <hr>
             <div class="">
 
                 <div class="row">
                   <div class="col-md-4">
-                    <%= link_to(image_tag("natp_logo_words_2.jpg"), "http://www.natptax.com/Pages/default.aspx") %>
+                    <%= link_to(image_tag("natp_logo_words_2.jpg", :class => 'taxes-centered-image'), "http://www.natptax.com/Pages/default.aspx") %>
                   </div>
                   <div class="col-md-4">
-                    <%= link_to(image_tag("ata_logo.png"), "https://www.atanet.org/") %>
+                    <%= link_to(image_tag('efile_logo.jpg', :class => 'taxes-centered-image'), "http://www.irs.gov/Filing/E-File-Options") %>
+
                   </div>
                   <div class="col-md-4">
-                    <%= link_to(image_tag("aipb_logo.png"), "https://www.atanet.org/") %>
+
+                    <%= link_to(image_tag("better_business_bureau_logo_aplus.png", :class => 'taxes-centered-image'), "http://www.bbb.org/iowa/business-reviews/tax-return-preparation/48th-street-income-tax-service-in-denison-ia-32046966") %>
                   </div>
                 </div>
                 <hr>
                 <div class="row">
                   <div class="col-md-4">
-                    <%= link_to(image_tag('efile_logo.jpg'), "http://www.irs.gov/Filing/E-File-Options") %>
+                    <%= link_to(image_tag("najit_logo.png", :class => 'taxes-centered-image'), "http://www.najit.org/") %>
                   </div>
                   <div class="col-md-4">
-                    <%= link_to(image_tag("najit_logo.png"), "http://www.najit.org/") %>
 
+                    <%= link_to(image_tag("ata_logo.png", :class => 'taxes-centered-image'), "https://www.atanet.org/") %>
                   </div>
                   <div class="col-md-4">
-                    <%= link_to(image_tag("better_business_bureau_logo.jpg"), "https://www.bbb.org/") %>
+                    <%= link_to(image_tag("aipb_logo.png", :class => 'taxes-centered-image'), "https://www.atanet.org/") %>
                   </div>
                 </div>
 
@@ -130,6 +137,20 @@
 
       </div>
 
+            <hr>
+            <footer>
+              <div class="fb-like" data-href="https://www.facebook.com/clemente.velasco1" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+            </footer>
+
 </div>
 </body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </html>

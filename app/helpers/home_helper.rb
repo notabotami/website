@@ -19,7 +19,7 @@ module HomeHelper
   end
 
   def self.es_para1
-    return "48th Street Income Tax Service es undo de los proveedores de
+    return "48th Street Income Tax Service es uno de los proveedores de
 preparaci&oacuten de impuestos con mayor crecimiento en los &uacuteltimos a&ntildeos en la
 ciudad de Denison Iowa ys us alrededores"
   end
@@ -29,7 +29,7 @@ ciudad de Denison Iowa ys us alrededores"
   def self.en_para2
     return "We understand that preparing your own federal income taxes can be complicated and
   confusing.  Our trained professionals are here to help you with all of your tax
-  concerns.  We are commited to providing you with exceptional customer service."
+  concerns.  We are commited to providing you with excellent customer service."
   end
 
   def self.es_para2
@@ -44,18 +44,20 @@ proporcionarle nuestro servicio de atencion al cliente de la m&aacutes alta cali
 
   def self.en_para3
     return "At 48th Street Income Tax Service we specialize in preparing tax returns through
-  electronic filing (IRS e-file).  In addition to preparing federal and any state
-  individual tax returns.  48th Street Income Tax Service provides income tax
-  planning, translation, and interpretation services as well as notary services.
-  We are developing plans to offer income tax preparation courses for the public
-  int the near future."
+  electronic filing (IRS e-file) so you can recieve your tax return even faster.
+In addition to preparing federal and any state
+  individual and business tax returns, 48th Street Income Tax Service provides translation
+and interpretation services as well as notary services."
   end
 
   def self.es_para3
     return "En 48th Street Income Tax Service nos especializamos en la
-preparaci&oacuten de declaraciones de impuestos individuales a trav&eacutes de
+preparaci&oacuten de declaraciones de impuestos individuales y de negocios a trav&eacutes de
 la presentatci&oacuten electronica (e-file del IRS) para que usted pueda
-recibir su reembolso aun mas rapido"
+recibir su reembolso aun mas rapido.  Ademas de preparar impuestos federales y cualquier
+declaraci&oacuten de impuesto individuale estatale, 48th Street Income Tax Service ofrece
+servicios de traducci&oacuten y interpretacci&oacuten, tambien servicios de notarizaci&oacuten
+de documentos."
   end
 
   #####
@@ -69,9 +71,9 @@ recibir su reembolso aun mas rapido"
   def self.es_para4
     return "No importa cual sea su ocupacion, nuestros profesionales
 son expertos en el campo de la preparacion de impuestos.  Estamos
-llenos de conocimiento acerca de los ultimos cambios en la legislacion
-sobre los impuestos tributarios y nos esforzamos para mantenernos al dia
-con el siempre cambiante codigo tributario."
+muy bien informados acerca de los ultimos cambios en la ley de los
+impuestos tributarios y nos esforzamos para mantenernos al dia
+en los constantes cambios de los codigos tributarios"
   end
 
   #####
@@ -79,7 +81,7 @@ con el siempre cambiante codigo tributario."
   def self.en_para5
     return "At 48th Street Income Tax Service, you receive personalized service from every one
   of our tax professionals.  We offer one-on-one interviews to identify all the
-  deductions you are entitled to, and we work to get your the largest refund possible</p>
+  deductions you are entitled to, and we work to get you the largest refund possible.
 "
   end
 
@@ -95,11 +97,11 @@ el mayor reembolso posible bajo las leyes tributarias."
   #####
 
   def self.en_offer_header
-    return  "We Offer:"
+    return  "We offer the following services:"
   end
 
   def self.es_offer_header
-    return "Le Ofrecemos:"
+    return "Le Ofrecemos los siguientes servicios:"
   end
 
   #####
@@ -119,7 +121,7 @@ el mayor reembolso posible bajo las leyes tributarias."
   end
 
   def self.es_offer2
-    return "Enmiendas en sus planillas de Impuestos"
+    return "Enmiendas en sus Planillas de Impuestos"
   end
 
   #####
@@ -135,11 +137,11 @@ el mayor reembolso posible bajo las leyes tributarias."
   #####
 
   def self.en_offer4
-    return "Direct Deposit"
+    return "Free Direct Deposit"
   end
 
   def self.es_offer4
-    return "Deposito Directo a su Cuenta Bancaria"
+    return "Deposito Directo Gratis a su Cuenta Bancaria"
   end
 
   #####
@@ -179,7 +181,7 @@ el mayor reembolso posible bajo las leyes tributarias."
   end
 
   def self.es_offer8
-    return "Servicios de Notarizacion de documentos"
+    return "Servicios de Notarizacion de Documentos"
   end
 
 

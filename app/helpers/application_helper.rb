@@ -46,7 +46,7 @@ module ApplicationHelper
   #####
 
   def self.en_about
-    return "about"
+    return "about us"
   end
 
   def self.es_about
@@ -91,6 +91,16 @@ module ApplicationHelper
 
   def self.es_view_profile
     return "mira perfil"
+  end
+
+  #####
+
+  def self.en_itin
+    return "itin information"
+  end
+
+  def self.es_itin
+    return "informacci&oacuten de itin"
   end
 
   #####

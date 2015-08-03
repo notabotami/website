@@ -3,13 +3,16 @@
 
       <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe %>
 
+    <br>
+
+
   </div>
   <div class="sidebar-module">
     <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "refund_status").html_safe %></h4>
     <ol class="list-unstyled">
-      <li><a href="http://www.irs.gov/Refunds"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "federal").html_safe %></a></li>
-      <li><a href="https://ndr-refundstatus.ne.gov/refundstatus/public/search.faces"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "nebraska").html_safe %></a></li>
-      <li><a href="https://www.idr.iowa.gov/wheresmyrefund/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa").html_safe %></a></li>
+      <li class="odd"><a href="http://www.irs.gov/Refunds"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "federal").html_safe %></a></li>
+      <li class="even"><a href="https://ndr-refundstatus.ne.gov/refundstatus/public/search.faces"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "nebraska").html_safe %></a></li>
+      <li class="odd"><a href="https://www.idr.iowa.gov/wheresmyrefund/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa").html_safe %></a></li>
       <li>
         <div class="btn-group">
           <button type="button" class="btn taxes-button dropdown-toggle" data-toggle="dropdown"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "refund_status_state").html_safe %><span class="caret"></span></button>
