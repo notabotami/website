@@ -24,41 +24,29 @@
 
 
 .taxes-content{
-  padding-top: 70px;
+  padding-top: 90px;
 }
 
-.navbar-nav > li > a, .navbar-brand{
+
+.navbar-nav > li > a{
   padding-top: 4px !important;
   padding-bottom: 0 !important;
   height: 35px;
 
   padding: 10px;
-
-}
-.navbar-nav{
-
-}
-.navbar-default{
-
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
+.navbar-nav > li > a:hover{
+  color: #000000;
+}
 .navbar{
-  min-height: 28px !important;
-
-
-
-}
-
-.navbar-header{
-
-
-
+  min-height: 40px !important;
+  background-color: #324C7F;
 
 }
 
-.taxes-navbar-content{
-
-}
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
@@ -94,9 +82,7 @@
 }
 
 
-p{
-  text-align: justify;
-}
+
 
 .taxes-jumbotron{
   background-color: #324C7F;
@@ -121,10 +107,31 @@ p{
   color: #ffffff;
   background-color: #324C7F;
 }
+
+.icon-bar{
+  background-color: #ffffff;
+}
+
+.taxes-stacked{
+  padding-top: 20px;
+}
+
+.taxes-sidebar li{
+  font-size: 1.2em;
+  padding: 10px;
+}
+body{
+  font-size: 150%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Corben', Georgia, Times, serif;
   text-transform: uppercase;
 }
-p, div {
+p, div,a {
   font-family: 'Nobile' Helvetica, Arial, sans-serif;
+}
+
+p{
+  text-align: justify;
 }

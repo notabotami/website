@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
     <%= "48th street" %>
@@ -17,15 +18,20 @@
 <div class="container">
   <div class="container">
 
-  <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+  <nav role="navigation" class="navbar navbar-fixed-top">
     <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">48thstreet</a>
-    </div>
+      <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
     <div id="navbarCollapse" class="collapse navbar-collapse taxes-navbar-content">
       <ul class="nav navbar-nav">
 
-        <li> <%= if @english  then link_to("espa&ntildeol".html_safe, change_language_path, :method => 'get') else link_to("english",change_language_path, :method => 'get') end %></li>
       <% if !@current_user %>
 
           <li><%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "login").html_safe, '/login', :method => 'get', :class => "hidden") %></li>
@@ -38,10 +44,13 @@
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "home").html_safe, home_path, :method => 'get',"data-toggle" => "tab") %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "about").html_safe, about_path, :method => 'get', "data-toggle" => "tab") %> </li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "services").html_safe, services_path, :method => 'get', "data-toggle" => "tab") %></li>
-        <li> <%= link_to("itin information") %></li>
-        <li> <%= link_to("questions/answers",'/questions_and_answers', :method => 'get') %></li>
-        <li> <%= link_to("our privacy policy",'/privacy',:method => 'get') %></li>
-        <li> <%= link_to("our location", '/location', :method => 'get') %></li>
+
+        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "questions_and_answers").html_safe,'/questions_and_answers', :method => 'get') %></li>
+        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "privacy").html_safe,'/privacy',:method => 'get') %></li>
+        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "location").html_safe, '/location', :method => 'get') %></li>
+        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe, '/contact_us', :method => 'get') %></li>
+        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "employee_application").html_safe, '/employee_application', :method => 'get') %></li>
+        <li> <%= link_to('email', '/sample_email', :method => 'get') %></li>
 
         <% if @current_user %>
             <li><%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "view_profile").html_safe,user_view_profile_path, :method => 'get') %></li>
@@ -54,7 +63,7 @@
   </nav>
 
     </div>
-      <div id="main" class="container theme-showcase taxes-content" role="main">
+      <div id="main" class="container taxes-content" role="main">
 
         <div class="jumbotron taxes-jumbotron">
           <h1 class="taxes-centered">48th STREET INCOME TAX SERVICE</h1>
@@ -71,12 +80,12 @@
         <% end -%>
 
             <div class="row">
-              <div class="col-xs-9 ">
+              <div class="col-md-8 ">
 
                 <%= yield %>
               </div>
 
-              <div class="col-xs-3 ">
+              <div class="col-md-4 taxes-stacked">
                 <%= render 'sidebar/sidebar' %>
               </div><!-- /.sidebar -->
 
@@ -89,13 +98,13 @@
             <hr>
 
             <div class="row">
-              <div class="col-xs-4">
+              <div class="col-md-4">
                 <%= link_to(image_tag("natp_logo_words_2.jpg"), "http://www.natptax.com/Pages/default.aspx") %>
               </div>
-              <div class="col-xs-4">
+              <div class="col-md-4">
                 <%= link_to(image_tag("ata_logo.png"), "https://www.atanet.org/") %>
               </div>
-              <div class="col-xs-4">
+              <div class="col-md-4">
                 <%= link_to(image_tag("aipb_logo.png"), "https://www.atanet.org/") %>
               </div>
             </div>

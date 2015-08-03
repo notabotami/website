@@ -4,19 +4,19 @@
     <data-source source="LOCAL" name="Rails basta: development" uuid="8ed16fde-edd1-4253-b586-403fc2a13aa5">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Sites\website\basta\db\development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Sites\website\db\development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails basta: test" uuid="60f54801-d760-4632-bb55-e217c9e9d4ae">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Sites\website\basta\db\test.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Sites\website\db\test.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails basta: cucumber" uuid="a2dfd8d3-46d2-48e7-ac7b-95059b3fde85">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Sites\website\basta\db\test.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Sites\website\db\test.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>

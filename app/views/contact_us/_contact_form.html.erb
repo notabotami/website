@@ -1,0 +1,32 @@
+
+<form role="form">
+  <div class="form-group">
+    <label for="email"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "email_address").html_safe %></label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="text"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "name").html_safe %></label>
+    <input type="text" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="phone"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "phone").html_safe %></label>
+    <input type="text" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="sel1"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "form_of_contact").html_safe %></label>
+    <select class="form-control" id="sel1">
+      <option><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "email_option").html_safe %></option>
+      <option><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "phone_option").html_safe %></option>
+      <option><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "email_or_phone_option").html_safe %></option>
+    </select>
+    </div>
+  <div class="checkbox">
+    <label><input type="checkbox"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "prefer_spanish").html_safe %></label>
+  </div>
+  <div class="form-group">
+    <label for="question"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "question").html_safe %></label>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  <button type="submit" class="btn btn-default"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "submit").html_safe %></button>
+</form>
+

@@ -93,4 +93,54 @@ module ApplicationHelper
     return "mira perfil"
   end
 
+  #####
+
+  def self.en_questions_and_answers
+    return "questions/answers"
+  end
+
+  def self.es_questions_and_answers
+    return "preguntas/respuestas"
+  end
+
+  #####
+
+  def self.en_privacy
+    return "privacy policy"
+  end
+
+  def self.es_privacy
+    return "politica de privacidad"
+  end
+
+  #####
+
+  def self.en_location
+    return "location"
+  end
+
+  def self.es_location
+    return "ubicaci&oacuten"
+  end
+
+  #####
+
+  def self.en_contact_us
+    return "contact us"
+  end
+
+  def self.es_contact_us
+    return "contactanos"
+  end
+
+  #####
+
+  def self.en_employee_application
+    return "apply"
+  end
+
+  def self.es_employee_application
+    return "aplica"
+  end
+
 end

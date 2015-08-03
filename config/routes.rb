@@ -12,6 +12,9 @@ BastaScheduler::Application.routes.draw do
   get '/questions_and_answers', to: 'questions_and_answers#questions_and_answers'
   get '/privacy', to: 'privacy#privacy'
   get '/location', to: 'location#location'
+  get '/contact_us', to: 'contact_us#contact_us'
+  get '/employee_application', to: 'employee_application#employee_application'
+  get '/sample_email', to: 'email#sample_email'
 
   get '/change_language', to: 'application#change_language'
   get '/change_to_english', to: 'application#change_to_english'

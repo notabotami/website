@@ -1,0 +1,63 @@
+
+<div>
+
+  <ul class="pager">
+    <li class="previous"><a href="#testimonialCarousel" role="button" data-slide="prev"><span aria-hidden="true">&larr;</span> </a></li>
+    <li class="next"><a href="#testimonialCarousel" role="button" data-slide="next"> <span aria-hidden="true">&rarr;</span></a></li>
+  </ul>
+  <!-- Left and right controls -->
+
+</div>
+
+<div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <p>
+
+        <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "disclaimer")%>
+
+      </p>
+    </div>
+
+    <div class="item">
+      <p>
+        <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "testimonial1").html_safe%>
+      </p>
+    </div>
+
+    <div class="item">
+      <p>
+        <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "testimonial2").html_safe%>
+      </p>
+    </div>
+
+    <div class="item">
+      <p>
+        <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "testimonial3").html_safe%>
+      </p>
+    </div>
+
+    <div class="item">
+      <p>
+        <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "testimonial4").html_safe%>
+      </p>
+    </div>
+
+    <div class="item">
+      <p>
+        <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "testimonial5").html_safe%>
+      </p>
+    </div>
+
+    <div class="item">
+      <p>
+        <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "testimonial6").html_safe%>
+      </p>
+    </div>
+  </div>
+
+
+</div>
+

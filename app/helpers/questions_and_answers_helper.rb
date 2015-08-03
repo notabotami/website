@@ -5,7 +5,7 @@ module QuestionsAndAnswersHelper
   end
 
   def self.es_questions_and_answers
-    return ""
+    return "PREGUNTAS Y RESPUESTAS! "
   end
 
   #####
@@ -15,7 +15,8 @@ module QuestionsAndAnswersHelper
   end
 
   def self.es_where_located
-    return ""
+    return "Adonde esta ubicada la oficina de 48TH STREET INCOME
+TAX SERVICE?"
   end
 
   ######
@@ -29,7 +30,11 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_where_located_para
-    return ""
+    return "Nuestra direcci&oacuten de negocio en 109 S Main St Denison,
+IA 51442.  Presione
+<a href='https://www.google.com/maps/place/109+S+Main+St,+Denison,+IA+51442/@42.015929,-95.3558148,15z/data=!4m2!3m1!1s0x8792c2345246ef21:0x6d223a5280ac763'>AQUI</a>
+para ver un mapa y obtener una guia de manejo para llegar a nuestra
+ubicaci&oacuten."
   end
 
   ######
@@ -39,7 +44,8 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_what_address
-    return ""
+    return "Cual es la direcci&oacuten para enviar correspondencia a
+48TH STREET INCOME TAX SERVICE?"
   end
 
   ######
@@ -56,7 +62,14 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_what_address_para
-    return ""
+    return "Nuestra direcci&oacuten para correspondencia es:
+<br>
+<br>
+48th Street Income Tax Service
+<br>
+109 S Main St
+<br>
+Denison, IA 51442"
   end
 
   ######
@@ -66,7 +79,8 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_what_hours
-    return ""
+    return "Cuales son las horas de oficina de 48th STREET INCOME TAX
+SERVICE?"
   end
 
   ######
@@ -82,7 +96,11 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_what_hours_para
-    return ""
+    return "Durante la epoca de preparaci&oacuten de impuestos, Enero
+15 hasta Abril 30, nuestra oficina esta abierta de Lunes a Viernes de
+9:00 am a 8:00 pm y los S&aacutebados de 9:00 am a 6:00 pm.  Adicionalmente
+y para su conveniencia, 48th STREET INCOME TAX SERVICE tiene la habilidad
+de ayudar a nuestros clientes durante todo el a&ntildeo por medio de citas."
   end
 
   ######
@@ -92,7 +110,8 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_why_taxes
-    return ""
+    return "Porque elegir a 48TH STREET INCOME TAX SERVICE para la preparaci&oacuten
+de mis impuestos?"
   end
 
   ######
@@ -117,7 +136,26 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_why_taxes_para
-    return ""
+    return " 48TH STREET INCOME TAX SERVICE  es una compania independiente de
+servicios de preparaci&oacuten de impuestos, lo que significa que su preparador
+de impuestos llega a conocerle personalmente.  Al tener el mismo preparador de
+de impuestos a&ntildeo tras a&ntildeo es una gran ventaja - d&aacutendole un
+profesional que conoce su situaci&oacuten fiscal y historial.
+
+      <br>
+      <br>
+
+Los profesionales de 48TH STREET INCOME TAX SERVICE examinan a fondo cada una
+de la situaci&oacuten fiscal de cada cliente para obtener la mayor deducci&oacuten,
+cr&eacuteditos, y reembolso m&aacutes grande posible bajo las leyes tributarias.
+
+      <br>
+      <br>
+
+      <b>
+No solamente vaya con personas - vay con personas que le conocen y le dar&aacuten
+el mejor servicio!
+</b>"
   end
 
   ######
@@ -127,20 +165,24 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_can_return
-    return ""
+    return "Puedo obtener copias de mis planillas de impuestos?"
   end
 
   ######
 
   def self.en_can_return_para
-    return "      Every customer receives a printed copy of their return.
+    return "Every customer receives a printed copy of their return.
       An electronic copy can be emailed to your e-mail address if so requested.
       Files are encrypted and password protected so that only the intended client can
       access and open the files attached to their e-mail."
   end
 
   def self.es_can_return_para
-    return ""
+    return "Cada cliente recibe una copia de sus planillas de impuestos.  Una copia
+electr&oacutenica tambien se le puede enviar electr&oacutenicamente a su
+direcci&oacuten de correo electr&oacutenico.  Todos los archivos son cifrados
+y protegidos con contrase&ntildea de modo que s&oacutelo el cliente puede acceder
+y abrir los archivos adjuntos a su e-mail"
   end
 
   ######
@@ -150,7 +192,7 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_how_taxes
-    return ""
+    return "Cuanto cuesta la preparaci&oacuten de impuestos?"
   end
 
   ######
@@ -162,7 +204,12 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_how_taxes_para
-    return ""
+    return "Honorarios por la preparaci&oacuten de impuestos se basan en la
+complejidad de sus planillas.  Nuestros honorarios son generalmente m&aacutes
+bajos que nuestros competidores, ya que somos una compania independiente y
+nuestros gastos de operaci&oacuten son generalmente m&aacutes bajos, podemos
+ofrecerle precios m&aacutes comodos.  Llame a nuestra oficina al
+(712) 263-3313 para conocer con detalle la estructura de nuestros honorarios."
   end
 
   ######
@@ -172,7 +219,7 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_what_preparation
-    return ""
+    return "Cuales documentos debo traer para la preparaci&oacuten de mis impuestos?"
   end
 
   ######
@@ -245,7 +292,75 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_what_preparation_para
-    return ""
+    return "La siguiente es una lista de documentos que usted debe de
+traer a su cita con 48TH STREET INCOME TAX SERVICE (si se aplican a
+su situaci&oacuten):
+
+      <br>
+      <br>
+
+      <h5>PERSONAL INFORMATION FOR EACH FAMILY MEMBER:</h5>
+        <ul>
+          <li>Nombre</li>
+          <li>Fecha de Nacimiento</li>
+          <li>Tarjeta del Seguro Social/ITIN/ATIN</li>
+          <li>Impuestos del a&ntildeo pasado</li>
+          <li>Identification Estatal</li>
+        </ul>
+
+    <br>
+    <br>
+
+    <h5>Informacion de Ingresos</h5>
+    <ul>
+      <li>Formularios por su Empleo (W-2)</li>
+      <li>Intereses (1099-INT)</li>
+      <li>Dividendos (1099-DIV)</li>
+      <li>Venta de Stocks (1099-B)</li>
+      <li>Trabajador por cuenta propia (1099-MISC)</li>
+      <li>Venta de una Residencia Personal</li>
+      <li>Ingreso Sobre la Renta de Propriedades</li>
+      <li>Venta de un Negocio</li>
+      <li>Ganancia de Loterias y/o apuestas (W-2G)</li>
+      <li>Reembolso estatal</li>
+      <li>Ingreso de alguna Pensi&oacuten (1099-R)</li>
+      <li>Pagos de Taxes Estimados</li>
+      <li>Ingresos del Seguro Social</li>
+      <li>IRA o distribuci&oacuten de 401(k)</li>
+      <li>Compensaci&oacuten por Desempleo</li>
+      <li>Ingresos Varios (1099-MISC)</li>
+
+    </ul>
+
+    <br>
+    <br>
+
+    <h5>Deducciones/Ajustes (Traer Recibos)</h5>
+    <ul>
+      <li>Gastos M&eacutedicos</li>
+      <li>Impuestos Pagados por Motivo de Real Estate o taxes
+pagados por propiedades personales</li>
+      <li>Intereses de Hipoteca</li>
+      <li>Contribuciones de Caridad</li>
+      <li>Gastos Incurridos en su Negocio</li>
+      <li>P&eacuterdidas en las apuestas</li>
+      <li>Gastos por motivo de mudanza</li>
+      <li>Contribuciones al IRA (Cuenta de Retiro Tracional)</li>
+      <li>Gastos de Educaci&oacuten</li>
+      <li>Gastos de Educador/Maestro</li>
+      <li>Inter&eacutes sobre pr&eacutestamos para asistir a la
+Universidad</li>
+    </ul>
+
+    <h5>Cr&eacuteditos Fiscales</h5>
+    <ul>
+      <li>Cuidado Infantil: Nombre del proveedor, Direcci&oacuten,
+N&uacutemero de Identificaci&oacuten del Empleador (EIN), N&uacutemero de
+Seguro Social (SSN), o ITIN, y el importe pagado</li>
+      <li>Gastos de Adopci&oacuten</li>
+      <li>Contribuciones a ahorros para la jubilaci&oacuten/retiro</li>
+
+    </ul>"
   end
 
   ######
@@ -255,7 +370,7 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_does_e_file
-    return ""
+    return "Ofrece 48TH STREET INCOME TAX SERVICE servicios e-file?"
   end
 
   ######
@@ -267,7 +382,11 @@ to view a map and driving directions to our location.</p>"
   end
 
   def self.es_does_e_file_para
-    return ""
+    return "Si.  48TH STREET INCOME TAX SERVICE ofrece e-file (servicio de
+enviar sus planillas electr&oacutenicamente a las agencias tributarias) lo cual
+permite que usted reciba su reembolso much m&aacutes rapido.  Tambien podemos
+hacer que su reembolso sea depositado en su cuenta bancaria sin ning&uacuten costo
+adicional a usted."
   end
 
   ######
