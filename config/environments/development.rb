@@ -34,7 +34,7 @@ BastaScheduler::Application.configure do
   # SMTP settings for gmail
   config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
-      :port                 => 2525,
+      :port                 => 25,
       :domain               => 'gmail.com',
       :user_name            => 'blurgiamtrash@gmail.com',
       :password             => 'blurgiampassword',
