@@ -146,11 +146,11 @@ module ApplicationHelper
   #####
 
   def self.en_employee_application
-    return "apply"
+    return "employment"
   end
 
   def self.es_employee_application
-    return "aplica"
+    return "empleo"
   end
 
 end

@@ -3,35 +3,36 @@ module SidebarHelper
   def self.en_contact_us
     return "<h4>Contact Us!</h4>
         <p>
-          Phone:
+          Telephone Number:
           <br>
           712-263-3313
-<br>
-1(888)405-2320
           <br>
           <br>
-          Address:
+          Office Address:
           <br>
           109 S Main St, Denison, IA 51442
           <br>
-
-        </p>"
+<br>
+        </p>
+<h5>Toll-Free Number: </h5><h4>1(888) 405-2320</h4>"
   end
 
   def self.es_contact_us
     return "<h4>Contactanos!</h4>
         <p>
-          tel&eacutefono:
+          Tel&eacutefono:
           <br>
           712-263-3313
           <br>
           <br>
-          direcci&oacuten de negocio:
+          Direcci&oacuten de Oficina:
           <br>
           109 S Main St, Denison, IA 51442
           <br>
+<br>
 
-        </p>"
+        </p>
+<h5>Linea Gratuita: </h4></h5><h4>1(888) 405-2320</h4>"
   end
 
   ######

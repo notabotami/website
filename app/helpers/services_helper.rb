@@ -52,7 +52,7 @@ computerized tax preparation software in the industry"
 
   def self.es_prep_para
     return "La preparaci&oacuten de impuestos puede ser dificil.
-Usted necesita ayuda r&aacute, precisa, y professional para
+Usted necesita ayudar&aacute, precisa, y professional para
 aswegurarse de que su planillas de impuestos est&aacuten libres de
 errores communes.  Eng 48th Street Income Tax Service, valoramos
 su preferencia al escogernos para servirle!  Esa es la raz&oacuten
@@ -447,7 +447,7 @@ medio de tel&eacutefono"
   #####
 
   def self.en_travel
-    return ""
+    return "Drafting Letters, Authorization to Travel with Minors, and other Documents"
   end
 
   def self.es_travel
@@ -457,11 +457,11 @@ medio de tel&eacutefono"
   #####
 
   def self.en_travel_para
-    return ""
+    return "We'll help you edit letters and prepare authorization to travel with minors among other documents."
   end
 
   def self.es_travel_para
-    return "Le ayudamos a preparar documentos legales tales como Cartas
-Poder, Autorizaciones para Viajar y otros."
+    return "Le ayudamos a preparar documentos tales como Cartas
+Poder, Autorizaciones para Viajar con Menores y otros mas."
   end
 end
