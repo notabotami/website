@@ -27,12 +27,12 @@ module AboutHelper
     return "48th Street Income Tax Service fue fundado en Novienbre
 del a&ntildeo 2004 por Alicia Lopez y Clemente Velasco depues de
 trabajar por m&aacutes de diez a&ntildeos para una de las m&aacutes
-grandes sindicados de los Estados Unidos.  Como el fundador y
+grandes sindicatos de los Estados Unidos.  Como el fundador y
 CEO de 48th Street Income Tax Service.  Velasco
-cree que cada cliente debe de recibir un servicio excellente de nuestra compania.
+cree que cada cliente debe de recibir un servicio excellente de nuestra compa&ntildeia.
 Estos valores
-personales son los que dirigen nuestra cultura empresarial en 48th Street Income Tax Service, alig&ntildeandose con
-sus valores fund."
+personales son los que dirigen nuestra cultura empresarial en 48th Street Income Tax Service,
+se rije por sus valores fundamentales."
   end
 
   #####

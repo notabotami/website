@@ -146,11 +146,33 @@ module ApplicationHelper
   #####
 
   def self.en_employee_application
-    return "employment"
+    return "career opportunities"
   end
 
   def self.es_employee_application
-    return "empleo"
+    return "oportunidad de empleo"
+
   end
+
+  #####
+
+  def self.en_social
+    return "Get Social with Us!"
+  end
+
+  def self.es_social
+    return "Socializate con Nosotros!"
+  end
+
+  #####
+
+  def self.en_members
+    return "We are members in good standing of the following associations and institutions"
+  end
+
+  def self.es_members
+    return "Somos miembros activos de las siquientes Asociasciones e Instituciones:"
+  end
+
 
 end

@@ -52,9 +52,9 @@ computerized tax preparation software in the industry"
 
   def self.es_prep_para
     return "La preparaci&oacuten de impuestos puede ser dificil.
-Usted necesita ayudar&aacute, precisa, y professional para
-aswegurarse de que su planillas de impuestos est&aacuten libres de
-errores communes.  Eng 48th Street Income Tax Service, valoramos
+Usted necesita ayuda, precisa, y professional para
+asegurarse de que su planillas de impuestos est&aacuten libres de
+errores com&uacutenes.  En 48th Street Income Tax Service, valoramos
 su preferencia al escogernos para servirle!  Esa es la raz&oacuten
 por la que proporcionamos a nuestros clientes los mejores productos
 y servicios disponibles a trav&eacutes de uno de las m&aacutes
@@ -86,7 +86,7 @@ as much as you are allowed by the IRS tax law."
 todos los beneficios que el servicio Interno Tributario - Internal
 Revenue Service (IRS) - tiene y ofrece a los contribuyentes.
 La planificaci&oacuten sobre sus impuestos le ayudar&aacute a
-minimizar su responsabilidad sobre los impuestos Federales a pager
+minimizar su responsabilidad sobre los impuestos Federales a pagar
 de la manera permitida por la ley de impuestos del servicio Interno
 Tributario - Internal Revenue Service (IRS)"
   end
@@ -188,7 +188,7 @@ help you to arrange a monthly payment plan with the IRS."
 
   def self.es_payment_plans_para
     return "Si usted debe impuestos al IRS sobre el presente
-a&ntildeo tributario, nosotros le podemos ayudar a negociar
+a&ntildeo tributario, nosotros le podemos ayudar a establecer
 un plan de pago mensual con el IRS."
   end
 
@@ -437,8 +437,8 @@ services in interpretation in person or by phone."
 
   def self.es_translations_para
     return "Nos especializamos en traducir documentos en Ingl&eacutes
-y Espa&ntildeol.  Nuestors documentos traducidos se dise&ntildean de
-tal manera que paracen similar o iqual al documento original para
+y Espa&ntildeol.  Nuestros documentos traducidos se dise&ntildean de
+tal manera que paracen similar o igual al documento original para
 hacerlos m&aacutes fac&iacutel de entender y comparar.  Tambien
 ofrecemos servicio de interpretaci&oacuten personalmente o por
 medio de tel&eacutefono"
@@ -461,7 +461,7 @@ medio de tel&eacutefono"
   end
 
   def self.es_travel_para
-    return "Le ayudamos a preparar documentos tales como Cartas
+    return "Le ayudamos a editar documentos tales como Cartas
 Poder, Autorizaciones para Viajar con Menores y otros mas."
   end
 end

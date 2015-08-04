@@ -33,30 +33,30 @@ our work."
     return "Si usted no est&aacute completamente stasifecho con la preparaci&oacuten de sus
 planillas de impuestos, usted no est&aacute obligado a presentar
 su declaraci&oacuten a las agencias tributaria por medio de nosotros.  Sin
-embargo, si usted decide presentar su declaraci&oacuten de impuestos con nosotros,
+embargo, si usted decide presentar su declaraci&oacuten de impuestos en nuestras oficinas,
 puede tener la certeza de saber que nuestro servicio es garantizado y respaldado
 con experiencia y profesionalismo.  Nuestro equipo de trabajo labora con un alto
-nivel de &eacutetica y compromiso, por lo tanto, nos esforzamos en construir
+nivel de &eacutetica profesional y compromiso, por lo tanto, nos esforzamos en construir
 una relaci&oacuten profesional, positiva, y eficaz con nuestros clientes."
   end
 
   #####
 
   def self.en_dont_wait
-    return "Don't wait!"
+    return "Don't wait, Call us Now!"
   end
 
   def self.es_dont_wait
-    return "No espere m&aacutes!"
+    return "No espere m&aacutes, Llamenos Hoy!"
   end
 
   #####
 
   def self.en_call
-    return "Please call our office today 712-263-3313 or our toll-free number (888) 405-2320"
+    return "Our office number is 712-263-3313 and our toll-free number is 1 (888) 405-2320"
   end
 
   def self.es_call
-    return "Por favor llame a nuestra oficina Hoy!  712-263-3313"
+    return "Nuestro numero de oficina es 712-263-3313 y nuestra linea gratuita es 1 (888) 405-2320"
   end
 end

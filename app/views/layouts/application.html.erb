@@ -13,6 +13,9 @@
   <%= csrf_meta_tags %>
   <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Righteous">
 </head>
 <body role="document">
 <div class="container">
@@ -48,15 +51,9 @@
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "questions_and_answers").html_safe,'/questions_and_answers', :method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "privacy").html_safe,'/privacy',:method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "location").html_safe, '/location', :method => 'get') %></li>
-        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe, '/contact_us', :method => 'get') %></li>
-        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "employee_application").html_safe, '/employee_application', :method => 'get') %></li>
 
-        <li> <%= link_to('email', '/sample_email', :method => 'get') %></li>
 
-        <% if @current_user %>
-            <li><%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "view_profile").html_safe,user_view_profile_path, :method => 'get') %></li>
 
-        <% end %>
 
       </ul>
     </div>
@@ -100,35 +97,71 @@
 
 
             <hr>
+            <h3 class="taxes-centered"><%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "social") %></h3>
+            <hr>
 
-            <h4 class="taxes-centered">We are members of, certified by, or authorized for the following:</h4>
+            <div class="row">
+
+              <div class="col-md-3 taxes-spaced">
+                <a href="https://www.facebook.com/pages/48th-Street-Income-Tax-Service/153994068075540">
+                    <img src="assets/facebook.png" class="img-circle img-responsive taxes-centered-image">
+                </a>
+              </div>
+
+              <div class="col-md-3 taxes-spaced">
+                <a href="https://plus.google.com/113009331922345317870">
+                    <img src="assets/gplus.png" class="img-circle img-responsive taxes-centered-image">
+                </a>
+              </div>
+
+              <div class="col-md-3 taxes-spaced">
+                <a href="https://www.linkedin.com/">
+                    <img src="assets/linkedin.png" class="img-circle img-responsive taxes-centered-image">
+                </a>
+              </div>
+
+              <div class="col-md-3 taxes-spaced">
+                <a href="https://twitter.com/">
+                    <img src="assets/twitter.png" class="img-circle img-responsive taxes-centered-image">
+                </a>
+              </div>
+              </div>
+
+            <hr>
+
+            <br>
+            <br>
+            <br>
+
+            <hr>
+            <h3 class="taxes-centered"><%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "members") %></h3>
             <hr>
             <div class="">
 
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-4 taxes-spaced">
                     <%= link_to(image_tag("natp_logo_words_2.jpg", :class => 'taxes-centered-image'), "http://www.natptax.com/Pages/default.aspx") %>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 taxes-spaced">
                     <%= link_to(image_tag('efile_logo.jpg', :class => 'taxes-centered-image'), "http://www.irs.gov/Filing/E-File-Options") %>
 
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 taxes-spaced">
 
                     <%= link_to(image_tag("better_business_bureau_logo_aplus.png", :class => 'taxes-centered-image'), "http://www.bbb.org/iowa/business-reviews/tax-return-preparation/48th-street-income-tax-service-in-denison-ia-32046966") %>
                   </div>
                 </div>
-                <hr>
+
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-4 taxes-spaced">
                     <%= link_to(image_tag("najit_logo.png", :class => 'taxes-centered-image'), "http://www.najit.org/") %>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 taxes-spaced">
 
                     <%= link_to(image_tag("ata_logo.png", :class => 'taxes-centered-image'), "https://www.atanet.org/") %>
                   </div>
-                  <div class="col-md-4">
-                    <%= link_to(image_tag("aipb_logo.png", :class => 'taxes-centered-image'), "https://www.atanet.org/") %>
+                  <div class="col-md-4 taxes-spaced">
+                    <%= link_to(image_tag("aipb_logo.png", :class => 'taxes-centered-image'), "http://www.aipb.org/") %>
                   </div>
                 </div>
 
@@ -138,19 +171,9 @@
       </div>
 
             <hr>
-            <footer>
-              <div class="fb-like" data-href="https://www.facebook.com/clemente.velasco1" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
-            </footer>
+
 
 </div>
 </body>
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 </html>

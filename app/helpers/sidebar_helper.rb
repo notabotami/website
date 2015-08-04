@@ -42,56 +42,66 @@ module SidebarHelper
   end
 
   def self.es_refund_status
-    return "Donde esta mi Reembolso?"
+    return "Donde est&aacute mi Reembolso?"
   end
 
   ######
 
   def self.en_federal
-    return "Federal - IRS"
+    return "Federal (IRS) - Where's My Refund?"
   end
 
   def self.es_federal
-    return "Federale - IRS"
+    return "Federale (IRS) - Donde est&aacute mi Reembolso?"
+  end
+
+  ######
+
+  def self.en_federal_link
+    return "https://sa.www4.irs.gov/irfof/lang/en/irfofgetstatus.jsp"
+  end
+
+  def self.es_federal_link
+    return "https://sa.www4.irs.gov/irfof/lang/sp/irfofgetstatus.jsp"
   end
 
   ######
 
   def self.en_nebraska
-    return "Nebraska"
+    return "Nebraska - Where's My Refund?"
   end
 
   def self.es_nebraska
-    return "Nebraska"
+    return "Nebraska - Donde est&aacute mi Reembolso?"
   end
 
   ######
 
 
   def self.en_iowa
-    return "Iowa"
+    return "Iowa - Where's My Refund?"
   end
 
   def self.es_iowa
-    return "Iowa"
+    return "Iowa - Donde est&aacute mi Reembolso?"
   end
 
   ######
 
 
   def self.en_refund_status_state
-    return "Choose a State to see Status"
+    return "Choose your State"
   end
 
   def self.es_refund_status_state
-    return "Escoje un Estado Para Ver el Status de Reembolso "
+    return "Escoje tu Estado "
   end
 
   ######
 
 
   def self.en_irs_information
-    return "IRS Information And Related Links"
+    return "IRS Information And Other Important Links"
   end
 
   def self.es_irs_information
@@ -111,6 +121,16 @@ module SidebarHelper
 
   ######
 
+  def self.en_irs_homepage_link
+    return "http://www.irs.gov/"
+  end
+
+  def self.es_irs_homepage_link
+    return "http://www.irs.gov/Spanish"
+  end
+
+  ######
+
 
   def self.en_irs_news
     return "IRS News"
@@ -121,6 +141,17 @@ module SidebarHelper
   end
 
   ######
+
+  def self.en_irs_news_link
+    return "http://www.irs.gov/uac/Latest-News"
+  end
+
+  def self.es_irs_news_link
+    return "http://www.irs.gov/Spanish/Noticias-en-Espa%C3%B1ol"
+  end
+
+  ######
+
 
 
   def self.en_irs_forms
@@ -143,12 +174,232 @@ module SidebarHelper
 
   ######
 
+  def self.en_irs_self_employment_link
+    return "http://www.irs.gov/Businesses/Small-Businesses-&-Self-Employed/Self-Employed-Individuals-Tax-Center"
+  end
+
+  def self.es_irs_self_employment_link
+    return "http://www.irs.gov/Spanish/Centro-de-Ayuda-Tributaria-para-Trabajadores-por-Cuenta-Propia"
+  end
+
+  ######
+
   def self.en_itin_numbers
     return "ITIN Numbers"
   end
 
   def self.es_itin_numbers
     return "Numeros de ITIN"
+  end
+
+  ######
+
+  def self.en_itin_numbers_link
+    return "http://www.irs.gov/Individuals/General-ITIN-Information"
+  end
+
+  def self.es_itin_numbers_link
+    return "http://www.irs.gov/Spanish/Informaci%C3%B3n-General-sobre-el-ITIN"
+  end
+
+  ######
+
+  def self.en_homeland_security
+    return "Homeland Security"
+  end
+
+  def self.es_homeland_security
+    return "Seguridad Nacional"
+  end
+
+  ######
+
+  def self.en_identity_pin
+    return "Get an Identity Protection PIN (IP PIN)"
+  end
+
+  def self.es_identity_pin
+    return "Solicite un N&uacutemero de Protecci&oacuten de Identidad (IP PIN)"
+  end
+
+  ######
+
+  def self.en_tips_preparer
+    return "Tips for Choosing a Tax Preparer"
+  end
+
+  def self.es_tips_preparer
+    return "Consejos para Elegir un Preparador de Impuestos"
+  end
+
+  ######
+
+  def self.en_tips_preparer_link
+    return "http://www.irs.gov/uac/Tips-for-Choosing-a-Tax-Return-Preparer"
+  end
+
+  def self.es_tips_preparer_link
+    return "http://www.irs.gov/Spanish/Diez-Consejos-para-Ayudarle-a-Elegir-a-Un-Preparador-de-Impuestos"
+  end
+
+  ######
+
+  def self.en_identity_protection
+    return "How to Report Tax Fraud?"
+  end
+
+  def self.es_identity_protection
+    return "Proteger su Identidad"
+  end
+
+  ######
+
+  def self.en_identity_protection_link
+    return "http://www.irs.gov/Individuals/Identity-Protection"
+  end
+
+  def self.es_identity_protection_link
+    return "http://www.irs.gov/Spanish/El-IRS-trabajar%C3%A1-con-v%C3%ADctimas-del-robo-de-identidad"
+  end
+
+  ######
+
+  def self.en_tax_fraud
+    return "Identity Protection"
+  end
+
+  def self.es_tax_fraud
+    return "Proteger su Identidad"
+  end
+
+  ######
+
+  def self.en_tax_fraud_link
+    return "http://www.irs.gov/Individuals/How-Do-You-Report-Suspected-Tax-Fraud-Activity%3F"
+  end
+
+  def self.es_tax_fraud_link
+    return "http://www.irs.gov/Spanish/C%C3%B3mo-puede-usted-reportar-actividad-tributaria-fraudulenta"
+  end
+
+  ######
+
+  def self.en_phishing_scams
+  return "Report Phishing and Online Scams"
+end
+
+def self.es_phishing_scams
+  return "Reporte Correos Electr&oacutenicos Sospechosos"
+end
+
+######
+
+def self.en_phishing_scams_link
+  return "http://www.irs.gov/uac/Report-Phishing"
+end
+
+def self.es_phishing_scams_link
+  return "http://www.irs.gov/Spanish/Reporte-pr%C3%A1ctica-fraudulenta-de-pesca-de-informaci%C3%B3n"
+end
+
+######
+
+  def self.en_apply_ein
+    return "Apply for an Employer Identification Number (EIN)"
+  end
+
+  def self.es_apply_ein
+    return "Solicite un N&uacutemero de Identificaci&oacuten del Empleador (EIN)"
+  end
+
+  ######
+
+  def self.en_apply_ein_link
+    return "http://www.irs.gov/Businesses/Small-Businesses-&-Self-Employed/Apply-for-an-Employer-Identification-Number-(EIN)-Online"
+  end
+
+  def self.es_apply_ein_link
+    return "http://www.irs.gov/Spanish/Solicite-un-N%C3%BAmero-de-Identificaci%C3%B3n-del-Empleador-en-l%C3%ADnea"
+  end
+
+  ######
+
+  def self.en_tax_calendar
+    return "IRS Tax Calendar"
+  end
+
+  def self.es_tax_calendar
+    return "Calendario Tributario del IRS"
+  end
+
+  ######
+
+  def self.en_tax_calendar_link
+    return "http://www.tax.gov/calendar/"
+  end
+
+  def self.es_tax_calendar_link
+    return "http://www.tax.gov/calendar/"
+  end
+
+  ######
+
+  def self.en_online_payments
+    return "Apply for Online Payments through Installments"
+  end
+
+  def self.es_online_payments
+    return "Solicitud Electrónica para el Acuerdo de Pagos a Plazos"
+  end
+
+  ######
+
+  def self.en_online_payments_link
+    return "http://www.irs.gov/Individuals/Online-Payment-Agreement-Application"
+  end
+
+  def self.es_online_payments_link
+    return "http://www.irs.gov/Spanish/Solicitud-Electr%C3%B3nica-para-el-Acuerdo-de-Pagos-a-Plazos"
+  end
+
+  ######
+
+  def self.en_address_changes
+    return "Address Changes"
+  end
+
+  def self.es_address_changes
+    return "Solicitud Electrónica para el Acuerdo de Pagos a Plazos"
+  end
+
+  ######
+
+  def self.en_address_changes_link
+    return "http://www.irs.gov/Help-&-Resources/Tools-&-FAQs/FAQs-for-Individuals/Frequently-Asked-Tax-Questions-&-Answers/IRS-Procedures/Address-Changes/Address-Changes"
+  end
+
+  def self.es_address_changes_link
+    return "http://www.irs.gov/Spanish/Tema-157,-C%C3%B3mo-notificar-al-IRS-sobre-el-cambio-de-direcci%C3%B3n"
+  end
+
+  ######
+
+  def self.en_return_transcript
+    return "Get Tax Return Transcript"
+  end
+
+  def self.es_return_transcript
+    return "Ordene una Transcripci&oacuten de su Declaraci&oacuten de Impuestos"
+  end
+
+  ######
+
+  def self.en_return_transcript_link
+    return "http://www.irs.gov/Individuals/Get-Transcript"
+  end
+
+  def self.es_return_transcript_link
+    return "http://www.irs.gov/Spanish/Ordenar-Transcripci%C3%B3n"
   end
 
   ######
@@ -168,7 +419,7 @@ module SidebarHelper
   end
 
   def self.es_iowa_department_revenue
-    return "Departamento de Ingresos de Iowa"
+    return "Departamento de Renta Interna de Iowa"
   end
 
   ######
@@ -178,18 +429,18 @@ module SidebarHelper
   end
 
   def self.es_nebraska_department_revenue
-    return "Departamento de Ingresos de Nebraska"
+    return "Departamento de Renta Interna de Nebraska"
   end
 
   ######
 
 
   def self.en_state_information
-    return "Visit your State's Tax Authority "
+    return "Your State's Information "
   end
 
   def self.es_state_information
-    return "Visita la Administraci&oacuten Tributaria de tu Estado"
+    return "La informaci&oacuten de tu Estado"
   end
 
   ######
@@ -367,6 +618,46 @@ dan ¡$1,000 adicionales de reembolso por niño!
 <br>
 
 -Martha Marquez.
+"
+  end
+
+  ######
+
+
+  def self.en_testimonial7
+    return "My husband and I had the best experience, being that this was our first year to File taxes. We were nervous about picking the right Tax Preparer. I recommend 48th street income tax service  to everyone. Tax preparer Clemente  work is Legit, he explains and shows you everything he does. Thank you Clemente, we greatly appreciate you.
+<br>
+<br>
+-April"
+  end
+
+  def self.es_testimonial7
+    return "Mi marido y yo tuvimos la mejor experiencia, siendo que este fue nuestro primer año en emitir impuestos. Estábamos nerviosos sobre elegir el preparador de impuestos correcto. Recomiendo el servicio de 48th street income tax service a todo el mundo. El trabajo del Preparador de impuesto, Clemente, es de fiar, no explico y mostro todo lo que hace. Gracias Clemente, Nosotros te  apreciamos enormemente.
+
+<br>
+<br>
+
+-April
+"
+  end
+
+  ######
+
+
+  def self.en_testimonial8
+    return "I must say that my time with Alicia Lopez was very enjoyable. She was so helpful and professional as described on the business card. I look forward to seeing you again next tax season. Thank you So much.
+<br>
+<br>
+-Kania"
+  end
+
+  def self.es_testimonial8
+    return "Debo decir que mi tiempo con Alicia López fue muy agradable. Ella fue muy servicial y profesional, como se describe en la tarjeta  comercial. Espero verte de nuevo la próxima temporada de impuestos. Muchas gracias.
+
+<br>
+<br>
+
+-Kania
 "
   end
 

@@ -21,7 +21,7 @@ module HomeHelper
   def self.es_para1
     return "48th Street Income Tax Service es uno de los proveedores de
 preparaci&oacuten de impuestos con mayor crecimiento en los &uacuteltimos a&ntildeos en la
-ciudad de Denison Iowa ys us alrededores"
+ciudad de Denison Iowa y sus alrededores"
   end
 
   #####

@@ -130,6 +130,9 @@
   padding-left: 10px;
 }
 
+.taxes-spaced{
+  padding: 5px;
+}
 li.even{
   color: rgb(80,50,120);
 }
@@ -138,11 +141,12 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Corben', Georgia, Times, serif;
+  font-family: 'Righteous', Georgia, Times, serif;
   text-transform: uppercase;
 }
 p, div,a {
-  font-family: 'Nobile' Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans' Helvetica, Arial, sans-serif;
+  font-size: 1.05em;
 }
 
 p{
