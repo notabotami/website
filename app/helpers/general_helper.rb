@@ -53,10 +53,16 @@ una relaci&oacuten profesional, positiva, y eficaz con nuestros clientes."
   #####
 
   def self.en_call
-    return "Our office number is 712-263-3313 and our toll-free number is 1 (888) 405-2320"
+    return "Our office number is 712-263-3313
+<br>
+<br>
+Our toll-free number is 1 (888) 405-2320"
   end
 
   def self.es_call
-    return "Nuestro numero de oficina es 712-263-3313 y nuestra linea gratuita es 1 (888) 405-2320"
+    return "Nuestro numero de oficina es 712-263-3313
+<br>
+<br>
+Nuestra linea gratuita es 1 (888) 405-2320"
   end
 end

@@ -122,16 +122,26 @@
   padding-top: 20px;
 }
 
-.taxes-sidebar li{
-  font-size: 1.2em;
-  padding: 10px;
-}
+
 .taxes-caption-text{
   padding-left: 10px;
 }
 
 .taxes-spaced{
-  padding: 5px;
+  padding: 10px;
+}
+.taxes-spaced li{
+  padding: 10px;
+}
+
+.taxes-small{
+  font-size: .7em;
+}
+.taxes-highlight-alt{
+  color: #FF6600;
+}
+.taxes-highlight{
+  color: #324C7F;
 }
 li.even{
   color: rgb(80,50,120);

@@ -9,7 +9,7 @@
   </div>
   <div class="sidebar-module">
     <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "refund_status").html_safe %></h4>
-    <ol class="list-unstyled">
+    <ol class="list-unstyled taxes-spaced">
       <li class="odd"><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "federal_link")%> ><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "federal").html_safe %></a></li>
       <li class="even"><a href="https://ndr-refundstatus.ne.gov/refundstatus/public/search.faces"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "nebraska").html_safe %></a></li>
       <li class="odd"><a href="https://www.idr.iowa.gov/wheresmyrefund/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa").html_safe %></a></li>
@@ -80,13 +80,14 @@
 
   <div class="sidebar-module">
     <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_information").html_safe %></h4>
-    <ol class="list-unstyled">
+    <ol class="list-unstyled taxes-spaced">
       <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_homepage_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_homepage").html_safe %></a></li>
       <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_news_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_news").html_safe %></a></li>
       <li><a href="http://www.irs.gov/Forms-&-Pubs"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_forms").html_safe %></a></li>
       <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_self_employment_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_self_employment").html_safe %></a></li>
       <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "itin_numbers_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "itin_numbers").html_safe %></a></li>
       <li><a href="http://www.dhs.gov/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "homeland_security").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "immigration_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "immigration").html_safe %></a></li>
       <li><a href="http://www.irs.gov/Individuals/Get-An-Identity-Protection-PIN"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "identity_pin").html_safe %></a></li>
       <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "tips_preparer_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "tips_preparer").html_safe %></a></li>
       <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "identity_protection_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "identity_protection").html_safe %></a></li>
@@ -104,7 +105,7 @@
 
   <div class="sidebar-module">
     <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa_information").html_safe %></h4>
-    <ol class="list-unstyled">
+    <ol class="list-unstyled taxes-spaced">
       <li><a href="https://tax.iowa.gov/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa_department_revenue").html_safe %></a></li>
       <li><a href="http://www.revenue.nebraska.gov/index.html"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "nebraska_department_revenue").html_safe %></a></li>
       <li>

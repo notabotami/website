@@ -14,7 +14,7 @@ module SidebarHelper
           <br>
 <br>
         </p>
-<h5>Toll-Free Number: </h5><h4>1(888) 405-2320</h4>"
+<h4>Toll-Free Number: </h5><h4>1(888) 405-2320</h4>"
   end
 
   def self.es_contact_us
@@ -32,7 +32,7 @@ module SidebarHelper
 <br>
 
         </p>
-<h5>Linea Gratuita: </h4></h5><h4>1(888) 405-2320</h4>"
+<h4>Linea Gratuita: </h4></h5><h4 style='taxes-highlight-alt'>1(888) 405-2320</h4>"
   end
 
   ######
@@ -169,7 +169,7 @@ module SidebarHelper
   end
 
   def self.es_irs_self_employment
-    return "IRS Trabajadores Aut&oacutenimos"
+    return "IRS Trabajadores por Cuenta Propia"
   end
 
   ######
@@ -209,7 +209,27 @@ module SidebarHelper
   end
 
   def self.es_homeland_security
-    return "Seguridad Nacional"
+    return "Departamento de Seguridad Nacional"
+  end
+
+  ######
+
+  def self.en_immigration
+    return "U.S. Citizenship and Immigration Services"
+  end
+
+  def self.es_immigration
+    return "Servicios de Ciudadanía e Inmigración de los EEUU"
+  end
+
+  ######
+
+  def self.en_immigration_link
+    return "http://www.uscis.gov/"
+  end
+
+  def self.es_immigration_link
+    return "http://www.uscis.gov/es"
   end
 
   ######
@@ -245,11 +265,11 @@ module SidebarHelper
   ######
 
   def self.en_identity_protection
-    return "How to Report Tax Fraud?"
+    return "Identity Protection"
   end
 
   def self.es_identity_protection
-    return "Proteger su Identidad"
+    return "Protega su Identidad"
   end
 
   ######
@@ -265,11 +285,11 @@ module SidebarHelper
   ######
 
   def self.en_tax_fraud
-    return "Identity Protection"
+    return "How to Report Tax Fraud?"
   end
 
   def self.es_tax_fraud
-    return "Proteger su Identidad"
+    return "Como puede Reportar Actividades Fraudulentas"
   end
 
   ######
@@ -409,7 +429,7 @@ end
   end
 
   def self.es_iowa_information
-    return "Informacci&oacuten de Impuestos de Iowa"
+    return "Informacci&oacuten de Impuestos del Estado de Iowa"
   end
 
   ######
@@ -419,7 +439,7 @@ end
   end
 
   def self.es_iowa_department_revenue
-    return "Departamento de Renta Interna de Iowa"
+    return "Departamento de Renta Interna del Estado de Iowa"
   end
 
   ######
@@ -652,6 +672,40 @@ dan ¡$1,000 adicionales de reembolso por niño!
   end
 
   def self.es_testimonial8
+    return "Debo decir que mi tiempo con Alicia López fue muy agradable. Ella fue muy servicial y profesional, como se describe en la tarjeta  comercial. Espero verte de nuevo la próxima temporada de impuestos. Muchas gracias.
+
+<br>
+<br>
+
+-Kania
+"
+  end
+
+  def self.en_testimonial9
+    return "I must say that my time with Alicia Lopez was very enjoyable. She was so helpful and professional as described on the business card. I look forward to seeing you again next tax season. Thank you So much.
+<br>
+<br>
+-Kania"
+  end
+
+  def self.es_testimonial9
+    return "Debo decir que mi tiempo con Alicia López fue muy agradable. Ella fue muy servicial y profesional, como se describe en la tarjeta  comercial. Espero verte de nuevo la próxima temporada de impuestos. Muchas gracias.
+
+<br>
+<br>
+
+-Kania
+"
+  end
+
+  def self.en_testimonial10
+    return "I must say that my time with Alicia Lopez was very enjoyable. She was so helpful and professional as described on the business card. I look forward to seeing you again next tax season. Thank you So much.
+<br>
+<br>
+-Kania"
+  end
+
+  def self.es_testimonial10
     return "Debo decir que mi tiempo con Alicia López fue muy agradable. Ella fue muy servicial y profesional, como se describe en la tarjeta  comercial. Espero verte de nuevo la próxima temporada de impuestos. Muchas gracias.
 
 <br>

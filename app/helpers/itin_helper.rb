@@ -349,8 +349,11 @@ module ItinHelper
 
   def self.en_itin_where_para
     return "    <p>
-      You can call our office at 712-263-3313
+      You can call our office!
     </p>
+<br>
+<br>
+<p>" + GeneralHelper.en_call + "</p>
     <br>
     <br>
     <p>
@@ -361,10 +364,11 @@ module ItinHelper
 
   def self.es_itin_where_para
     return "    <p>
-      Usted puede llamar a las oficinas de 48TH STREET INCOME TAX SERVICE 712-263-3313
+      Usted puede llamar a las oficinas de 48TH STREET INCOME TAX SERVICE!
     </p>
     <br>
     <br>
+<p>" + GeneralHelper.es_call + "</p>
     <p>
      Asiatencia También está disponible  Para proporcionar ayuda en persona con las solicitudes de ITIN.
 También puede utilizar los servicios de un Agente Tramitador Autorizado por el IRS.

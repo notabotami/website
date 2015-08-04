@@ -60,10 +60,11 @@ ubicaci&oacuten."
       <br>
       Denison, IA 51442
 <br>
+<br>
 Our email address is:
 <br>
 <br>
-48thstreetincometax@gmail.com"
+48streetincometax@gmail.com"
   end
 
   def self.es_what_address_para
@@ -96,26 +97,39 @@ SERVICE?"
   ######
 
   def self.en_what_hours_para
-    return "During tax season, January 15th through April 30th, our office is open Monday
-      through Friday 9:00a.m. to 7:30p.m., Saturday 9:00a.m. to 6:00p.m.
-      Additionally, 48TH STREET INCOME TAX SERVICE
-      maintains year-round help after tax season, no appointment is needed, for your convenience.
-      <br>
-      <br>
-      However, if you would prefer an appointment, you can call our office at (712)263-3313 or at our toll free number
-(888) 405-2320!"
+    return "
+    Our office hours:
+  <br>
+  During tax season, January 15th through April 30th, our office is open Monday through Friday 9:00a.m. to 7:30 p.m.,
+  Saturday 9:00a.m. to 6:00p.m, and Sunday 11:00a.m. to 5:00p.m. Additionally, 48TH STREET INCOME TAX SERVICE  maintains year-round help after tax season,
+  no  appointments needed, for your convenience Monday through Friday from 11:00 a.m. to 6:00 p.m., Saturday through appointment only
+and closed on Sunday.
+
+<br>
+<br>
+
+  If you prefer, please call!
+<br>
+<br>
+" + GeneralHelper.en_call
+
   end
 
   def self.es_what_hours_para
-    return "Durante la temporada de preparaci&oacuten de impuestos, Enero
-15 hasta Abril 30, nuestra oficina esta abierta de Lunes a Viernes de
-9:00 am a 7:30 pm y los S&aacutebados de 9:00 am a 6:00 pm.  Adicionalmente
-y para su conveniencia, 48th STREET INCOME TAX SERVICE se mantiene abierto
-durante todo el a&ntildeo para ayudar a nuestros clientes.
+    return "Nuestros Horarios de Oficina son las Siguientes:
+Durante la temporada de preparación de impuestos, Enero 15 hasta Abril 30,
+nuestra oficina esta abierta de Lunes a Viernes de 9:00a.m. a 7:30p.m.,
+los Sábados de 9:00a.m. a 6:00p.m, y los Domingos de 11:00 a 5:00p.m.. Adicionalmente y para su conveniencia,
+48th street Income Tax Service  tiene la habilidad de ayudar a
+nuestros clientes durante todo el año despues de la temporada de impuestos
+de Lunes a Viernes de 11:00a.m. a 6:00p.m., Sabados solo con sita y Domingos cerrados.
+
 <br>
 <br>
-Si usted prefiere citas, favor de llamarnos al numero (712) 263-3313 o al numero de telefono gratuito
-(888) 405-2320."
+
+Si usted prefiere, favor de llamar!
+<br>
+<br>" + GeneralHelper.es_call
   end
 
   ######
@@ -214,17 +228,21 @@ y abrir los archivos adjuntos a su e-mail"
   def self.en_how_taxes_para
     return "      Tax preparation fees are based on the complexity of the return.
       Our fees are usually reasonable, we are privately owned and operated with lower operating and
-      overhead costs. Call our office for detailed pricing at (712)263-3313 or at our toll free number
-(888) 405-2320."
+      overhead costs. Call our office for detailed pricing!
+<br>
+<br>
+" + GeneralHelper.en_call
   end
 
   def self.es_how_taxes_para
     return "Honorarios por la preparaci&oacuten de impuestos se basan en la
 complejidad de sus planillas.  Nuestros honorarios son generalmente m&aacutes
 razonables, ya que somos una compania independiente y
-nuestros gastos de operaci&oacuten son m&aacutes bajos,  Llame a nuestra oficina al
-(712) 263-3313  o al numero de telefono gratuito
-(888) 405-2320 para conocer con detalle la estructura de nuestros honorarios."
+nuestros gastos de operaci&oacuten son m&aacutes bajos,  Llame a nuestra oficina al para conocer con detalle la
+estructura de nuestros honorarios.
+<br>
+<br>
+" + GeneralHelper.es_call
   end
 
   ######

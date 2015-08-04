@@ -106,7 +106,7 @@ module ApplicationHelper
   #####
 
   def self.en_questions_and_answers
-    return "questions/answers"
+    return "faq"
   end
 
   def self.es_questions_and_answers
