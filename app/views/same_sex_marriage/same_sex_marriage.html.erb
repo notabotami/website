@@ -1,0 +1,9 @@
+
+
+<h3 class="taxes-centered"><%= SameSexMarriageHelper.send(ApplicationHelper.get_language_tag + "same_sex_marriage").html_safe %></h3>
+
+<hr>
+
+<div class="embed-responsive embed-responsive-4by3 taxes-centered">
+  <iframe class="embed-responsive-item"  src=<%= SameSexMarriageHelper.send(ApplicationHelper.get_language_tag + "same_sex_marriage_video_link").html_safe %>  allowfullscreen></iframe>
+</div>

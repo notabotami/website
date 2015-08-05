@@ -17,6 +17,7 @@ BastaScheduler::Application.routes.draw do
   get '/employee_application', to: 'employee_application#employee_application'
   get '/sample_email', to: 'email#sample_email'
   get '/itin', to: 'itin#itin'
+  get '/same_sex_marriage', to: 'same_sex_marriage#same_sex_marriage'
 
   get '/change_language', to: 'application#change_language'
   get '/change_to_english', to: 'application#change_to_english'

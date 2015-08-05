@@ -115,6 +115,17 @@ module ApplicationHelper
 
   #####
 
+  def self.en_same_sex_marriage
+    return "same sex marriage"
+  end
+
+  def self.es_same_sex_marriage
+    return "matrimonio del mismo sexo"
+  end
+
+
+  #####
+
   def self.en_privacy
     return "privacy policy"
   end
@@ -173,6 +184,9 @@ module ApplicationHelper
   def self.es_members
     return "Somos miembros activos de las siguientes Asociasciones e Instituciones:"
   end
+
+  #####
+
 
 
 end

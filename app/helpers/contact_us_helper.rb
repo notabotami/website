@@ -11,7 +11,7 @@ module ContactUsHelper
   #####
 
   def self.en_email_address
-    return "Email address:"
+    return "Email address"
   end
 
   def self.es_email_address
@@ -21,17 +21,17 @@ module ContactUsHelper
   #####
 
   def self.en_name
-    return "Name:"
+    return "Name"
   end
 
   def self.es_name
-    return "Nombre:"
+    return "Nombre"
   end
 
   #####
 
   def self.en_phone
-    return "Phone Number:"
+    return "Phone Number"
   end
 
   def self.es_phone
@@ -41,11 +41,11 @@ module ContactUsHelper
   #####
 
   def self.en_form_of_contact
-    return "Preferred form of Contact (select one):"
+    return "Preferred form of Contact (select one)"
   end
 
   def self.es_form_of_contact
-    return "Forma Preferida de Contacto (seleccione uno):"
+    return "Forma Preferida de Contacto (seleccione uno)"
   end
 
   #####
