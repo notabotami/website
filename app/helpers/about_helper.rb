@@ -24,8 +24,8 @@ module AboutHelper
   end
 
   def self.es_about_para
-    return "48th Street Income Tax Service fue fundado en Novienbre
-del a&ntildeo 2004 por Alicia Lopez y Clemente Velasco depues de
+    return "48th Street Income Tax Service fue fundado en Noviembre
+del a&ntildeo 2004 por Alicia Lopez y Clemente Velasco despues de
 trabajar por m&aacutes de diez a&ntildeos para una de las m&aacutes
 grandes sindicatos de los Estados Unidos.  Como el fundador y
 CEO de 48th Street Income Tax Service.  Velasco

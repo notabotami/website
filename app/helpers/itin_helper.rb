@@ -363,7 +363,7 @@ module ItinHelper
     <br>
 <p>" + GeneralHelper.es_call + "</p>
     <p>
-     Asiatencia También está disponible  Para proporcionar ayuda en persona con las solicitudes de ITIN.
+     Asistencia También está disponible  Para proporcionar ayuda en persona con las solicitudes de ITIN.
 También puede utilizar los servicios de un Agente Tramitador Autorizado por el IRS.
     </p>"
   end

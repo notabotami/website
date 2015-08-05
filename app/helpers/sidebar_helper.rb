@@ -65,7 +65,7 @@ module SidebarHelper
   end
 
   def self.es_federal
-    return "Federale (IRS) - Donde est&aacute mi Reembolso?"
+    return "Federal (IRS) - Donde est&aacute mi Reembolso?"
   end
 
   ######
@@ -107,7 +107,7 @@ module SidebarHelper
   end
 
   def self.es_refund_status_state
-    return "Escoje tu Estado "
+    return "Selecciona tu Estado "
   end
 
   ######

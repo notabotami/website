@@ -55,7 +55,7 @@ and interpretation services as well as notary services."
 preparaci&oacuten de declaraciones de impuestos individuales y de negocios a trav&eacutes de
 la presentatci&oacuten electronica (e-file del IRS) para que usted pueda
 recibir su reembolso aun mas rapido.  Ademas de preparar impuestos federales y cualquier
-declaraci&oacuten de impuesto individuale estatale, 48th Street Income Tax Service ofrece
+declaraci&oacuten de impuesto individual estatal, 48th Street Income Tax Service ofrece
 servicios de traducci&oacuten y interpretacci&oacuten, tambien servicios de notarizaci&oacuten
 de documentos."
   end

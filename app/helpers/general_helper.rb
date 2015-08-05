@@ -30,7 +30,7 @@ our work."
   end
 
   def self.es_guarantee_para
-    return "Si usted no est&aacute completamente stasifecho con la preparaci&oacuten de sus
+    return "Si usted no est&aacute completamente staisfecho con la preparaci&oacuten de sus
 planillas de impuestos, usted no est&aacute obligado a presentar
 su declaraci&oacuten a las agencias tributaria por medio de nosotros.  Sin
 embargo, si usted decide presentar su declaraci&oacuten de impuestos en nuestras oficinas,
