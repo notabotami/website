@@ -50,7 +50,7 @@ class ContactUsController < ApplicationController
       flash[:warning]= ContactUsHelper.send(ApplicationHelper.get_language_tag + "contact_us_alert")
       render "contact_us/contact_us"
     else
-      flash[:success]=ContactUsHelper.send(ApplicationHelper.get_language_tag + "success")
+      flash[:success]=ContactUsHelper.send(ApplicationHelper.get_language_tag + "contact_us_success")
       #TODO UNCOMMENT for production
       ExampleMailer.sample_email(@email,@name,@phone,@contact_option,@question,@prefer_spanish).deliver!
       redirect_to contact_us_path
