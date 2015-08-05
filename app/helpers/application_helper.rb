@@ -171,7 +171,7 @@ module ApplicationHelper
   end
 
   def self.es_members
-    return "Somos miembros activos de las siquientes Asociasciones e Instituciones:"
+    return "Somos miembros activos de las siguientes Asociasciones e Instituciones:"
   end
 
 

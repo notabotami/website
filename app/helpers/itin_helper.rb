@@ -112,11 +112,11 @@ module ItinHelper
   #####
 
   def self.en_itin_need_list_header
-    return "Other examples of individuals who need ITINs include:"
+    return "Other examples of individuals who need ITINs include but are not limited to:"
   end
 
   def self.es_itin_need_list_header
-    return "Ejemplos de individuos que necesitan un ITIN incluyen:"
+    return "Ejemplos de individuos que necesitan un ITIN incluyen pero no limitan a:"
   end
 
   #####
