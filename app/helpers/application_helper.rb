@@ -50,7 +50,7 @@ module ApplicationHelper
   end
 
   def self.es_about
-    return "sobre nosotros"
+    return "Qui&eacutenes Somos"
   end
 
   #####
