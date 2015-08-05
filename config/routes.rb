@@ -13,6 +13,7 @@ BastaScheduler::Application.routes.draw do
   get '/privacy', to: 'privacy#privacy'
   get '/location', to: 'location#location'
   get '/contact_us', to: 'contact_us#contact_us'
+  post '/contact_us_submit', to: 'contact_us#contact_us_submit'
   get '/employee_application', to: 'employee_application#employee_application'
   get '/sample_email', to: 'email#sample_email'
   get '/itin', to: 'itin#itin'

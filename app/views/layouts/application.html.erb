@@ -52,7 +52,7 @@
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "questions_and_answers").html_safe,'/questions_and_answers', :method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "privacy").html_safe,'/privacy',:method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "location").html_safe, '/location', :method => 'get') %></li>
-        <li> <%= link_to("Email", '/sample_email', :method => 'get') %></li>
+        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "location").html_safe, '/contact_us', :method => 'get', :class => "hidden") %></li>
 
 
 
