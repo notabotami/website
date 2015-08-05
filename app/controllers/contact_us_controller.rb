@@ -18,7 +18,7 @@ class ContactUsController < ApplicationController
     @question=params['question']
     @prefer_spanish= if params['prefer_spanish'].nil? then "I prefer English" else "I prefer Spanish" end
 
-    logger.tagged("contact form spanish") {logger.debug @prefer_spanish.nil?}
+    logger.tagged("contact form contact option") {logger.debug @contact_option}
 
     if @contact_option == "1"
       @contact_option = "I prefer email"
@@ -47,12 +47,12 @@ class ContactUsController < ApplicationController
     end
 
     if @question_warning or @name_warning or @email__warning
-      flash[:alert]="Please fill in the necessary information"
+      flash[:warning]= ContactUsHelper.send(ApplicationHelper.get_language_tag + "contact_us_alert")
       render "contact_us/contact_us"
     else
-      flash[:success]="Your email was sent, we'll contact you as soon as possible!"
+      flash[:success]=ContactUsHelper.send(ApplicationHelper.get_language_tag + "success")
       #Uncomment for production
-      ExampleMailer.sample_email(@email,@name,@phone,@contact,@question,@prefer_spanish).deliver!
+      ExampleMailer.sample_email(@email,@name,@phone,@contact_option,@question,@prefer_spanish).deliver!
       redirect_to contact_us_path
     end
 

@@ -6,7 +6,7 @@
     <label for="name"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "name").html_safe %>*</label>
     <br>
     <span class=<%="taxes-warning" + if !@name_warning then " hidden" else "" end%>>
-        please fill out your name
+        <%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "name_warning").html_safe %>
     </span>
     <input type="text" name='name' class="form-control" id="name">
   </div>
@@ -14,8 +14,8 @@
   <div class="form-group">
     <label for="email"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "email_address").html_safe %>**</label>
     <br>
-        <span class=<%="taxes-warning" + if !@email_warning then " hidden" else "" end%>>
-        please fill out either your email or your phone number
+    <span class=<%="taxes-warning" + if !@email_warning then " hidden" else "" end%>>
+        <%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "email_address_warning").html_safe %>
     </span>
     <input type="email" name='email' class="form-control" id="email">
   </div>
@@ -25,8 +25,8 @@
   <div class="form-group">
     <label for="phone"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "phone").html_safe %>**</label>
     <br>
-        <span class=<%="taxes-warning" + if !@phone_warning then " hidden" else "" end%>>
-        please fill out either your email or your phone number
+    <span class=<%="taxes-warning" + if !@phone_warning then " hidden" else "" end%>>
+        <%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "phone_warning").html_safe %>
     </span>
     <input type="text" class="form-control"  name='phone' id="phone">
   </div>
@@ -49,8 +49,8 @@
   <div class="form-group">
     <label for="question"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "question").html_safe %>*</label>
     <br>
-        <span class=<%="taxes-warning" + if !@question_warning then " hidden" else "" end%>>
-        please give a reason for contacting us
+    <span class=<%="taxes-warning" + if !@question_warning then " hidden" else "" end%>>
+        <%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "question_warning").html_safe %>
     </span>
     <textarea name='question' class="form-control" rows="5" id="comment"></textarea>
   </div>
@@ -60,7 +60,7 @@
 <br>
 
 <p>
-  * indicates that this field is required
+  *<%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "asterisk1").html_safe %>
   <br>
-  ** please make sure you fill out either your phone number or your email address so we can contact you
+  **<%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "asterisk2").html_safe %>
 </p>

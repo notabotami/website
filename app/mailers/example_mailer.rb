@@ -9,6 +9,8 @@ class ExampleMailer < ActionMailer::Base
     @question= question
     @prefer_spanish=prefer_spanish
 
+    logger.tagged("mailer contact option") {logger.debug @contact_option}
+
     time = Time.new
     mail(:to => "blurgiamtrash@gmail.com", :subject => "48thStreetIncomeTax Contact Form - " + @name + " - " +time.strftime("%Y-%m-%d %H:%M:%S %Z") )
   end
