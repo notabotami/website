@@ -12,7 +12,7 @@ class ExampleMailer < ActionMailer::Base
     logger.tagged("mailer contact option") {logger.debug @contact_option}
 
     time = Time.new
-    mail(:to => "blurgiamtrash@gmail.com", :subject => "48thStreetIncomeTax Contact Form - " + @name + " - " +time.strftime("%Y-%m-%d %H:%M:%S %Z") )
+    mail(:to => "48streetincometax@gmail.com", :subject => "48thStreetIncomeTax Contact Form - " + @name + " - " +time.strftime("%Y-%m-%d %H:%M:%S %Z") )
   end
 
 end
