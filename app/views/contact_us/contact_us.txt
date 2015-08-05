@@ -3,19 +3,19 @@
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <div class="form-group">
     <label for="email"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "email_address").html_safe %></label>
-    <input type="email" name=emailclass="form-control" id="email">
+    <input type="email" class="form-control" id="email">
   </div>
   <div class="form-group">
     <label for="text"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "name").html_safe %></label>
-    <input type="text" class="form-control" id="pwd">
+    <input type="text" class="form-control" id="name">
   </div>
   <div class="form-group">
     <label for="phone"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "phone").html_safe %></label>
-    <input type="text" class="form-control" id="pwd">
+    <input type="text" class="form-control" id="phone">
   </div>
   <div class="form-group">
     <label for="sel1"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "form_of_contact").html_safe %></label>
-    <select class="form-control" id="sel1">
+    <select class="form-control" name='contact_option' id="sel1">
       <option><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "email_option").html_safe %></option>
       <option><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "phone_option").html_safe %></option>
       <option><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "email_or_phone_option").html_safe %></option>
