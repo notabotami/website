@@ -31,14 +31,6 @@ BastaScheduler::Application.configure do
   config.action_mailer.perform_deliveries = true
 
   config.action_mailer.delivery_method = :smtp
-  # SMTP settings for gmail
-  config.action_mailer.smtp_settings = {
-      :address              => "smtp.gmail.com",
-      :port                 => 25,
-      :domain               => 'gmail.com',
-      :user_name            => 'blurgiamtrash@gmail.com',
-      :password             => 'blurgiampassword',
-      :authentication       => "plain",
-      :enable_starttls_auto => true
-  }
+
+
 end

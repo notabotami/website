@@ -52,6 +52,7 @@
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "questions_and_answers").html_safe,'/questions_and_answers', :method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "privacy").html_safe,'/privacy',:method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "location").html_safe, '/location', :method => 'get') %></li>
+        <li> <%= link_to("Email", '/sample_email', :method => 'get') %></li>
 
 
 
@@ -74,6 +75,12 @@
                 <a class="btn btn-lg taxes-button" href="/change_to_spanish" role="button">Espa&ntildeol</a>
               </p>
 
+          <br>
+          <br>
+
+          <div class="hidden-md hidden-lg taxes-centered taxes-centered-image taxes-jumbotron">
+          <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe %>
+            </div>
         </div>
 
         <% flash.each do |name, msg| -%>
@@ -83,6 +90,7 @@
             <div class="row">
 
               <div class="col-md-8 ">
+
 
                 <%= yield %>
               </div>

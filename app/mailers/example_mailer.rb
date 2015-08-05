@@ -1,5 +1,5 @@
 class ExampleMailer < ActionMailer::Base
-  default :from => "from@example.com"
+  default :from => "example@example.com"
 
   def sample_email
     mail(:to => "blurgiamtrash@gmail.com", :subject => "Sample Email")

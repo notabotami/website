@@ -251,13 +251,6 @@ module ItinHelper
     <br>
     <br>
     <p>
-      Because you are filing your tax return as an attachment to your ITIN
-      application, you should not mail your return to the address
-      listed in the Form 1040, 1040A or 1040EZ instructions. Instead, send your return to:
-    </p>
-    <br>
-    <br>
-    <p>
     Internal Revenue Service
       <br>
     Austin Service Center

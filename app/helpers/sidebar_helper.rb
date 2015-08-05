@@ -12,9 +12,16 @@ module SidebarHelper
           <br>
           109 S Main St, Denison, IA 51442
           <br>
-<br>
+          <br>
+          Email:
+          <br>
+          48streetincometax@gmail.com
         </p>
-<h4>Toll-Free Number: </h5><h4>1(888) 405-2320</h4>"
+
+<br>
+<h4>Toll-Free Number: </h5><h4>1(888) 405-2320</h4>
+
+"
   end
 
   def self.es_contact_us
@@ -29,10 +36,16 @@ module SidebarHelper
           <br>
           109 S Main St, Denison, IA 51442
           <br>
-<br>
-
+          <br>
+          Email:
+          <br>
+          48streetincometax@gmail.com
         </p>
-<h4>Linea Gratuita: </h4></h5><h4 style='taxes-highlight-alt'>1(888) 405-2320</h4>"
+<br>
+<br>
+<h4>Linea Gratuita: </h4></h5><h4 style='taxes-highlight-alt'>1(888) 405-2320</h4>
+
+"
   end
 
   ######

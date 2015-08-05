@@ -80,6 +80,9 @@
   text-align: center;
 
 }
+.taxes-centered p{
+  text-align: center;
+}
 
 .taxes-centered-image{
   display: block;
@@ -94,12 +97,14 @@
   background-color: #324C7F;
 }
 
-.taxes-jumbotron h1{
+.taxes-jumbotron h1, .taxes-jumbotron h2, .taxes-jumbotron h3, .taxes-jumbotron h4, .taxes-jumbotron h5{
   color: #ffffff;
 }
 .taxes-jumbotron p{
   color: #ffffff;
+
 }
+
 .right-aligned{
   text-align: right;
 }
@@ -143,6 +148,8 @@
 .taxes-highlight{
   color: #324C7F;
 }
+
+
 li.even{
   color: rgb(80,50,120);
 }
