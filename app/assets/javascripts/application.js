@@ -25,7 +25,7 @@ var app_host_url = window.location.protocol + "//"+window.location.host+"/"
 
 
 
-jQuery(document).ready(function($) {
+jQuery(document).on('page:change', function() {
     //line needed to make dropdowns work
     $('.dropdown-toggle').dropdown();
 
