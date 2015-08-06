@@ -11,7 +11,8 @@ class EmployeeApplicationController < ApplicationController
   def employee_application_submit
 
     logger.tagged("employee_application_submit") {logger.debug "Made it!"}
-    ExampleMailer.employment_email().deliver!
+    ExampleMailer.employment_email(params[:file]).deliver!
+    redirect_to "/employee_application_submit"
   end
 
 end

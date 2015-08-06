@@ -1,35 +1,16 @@
 
-<form accept-charset="UTF-8" action="/employee_application_submit" method="post" role="form">
-  <div class="form-group">
-    <label for="text">First Name</label>
-    <input type="email" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="text">Last Name</label>
-    <input type="email" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="phone">Email:</label>
-    <input type="text" class="form-control" id="pwd">
-  </div>
-  <div class="form-group">
-    <label for="">Phone:</label>
-    <input type="text" class="form-control" id="pwd">
-  </div>
-  <div class="form-group">
-    <label for="sel1">Preferred form of Contact (select one):</label>
-    <select class="form-control" id="sel1">
-      <option>e-mail</option>
-      <option>phone</option>
-      <option>either phone or email</option>
-    </select>
-  </div>
-  <div class="checkbox">
-    <label><input type="checkbox">Would prefer Spanish</label>
-  </div>
-  <div class="form-group">
-    <label for="question">Question/Reason for Inquiry</label>
-    <textarea class="form-control" rows="5" id="comment"></textarea>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
+<%= form_tag("/employee_application_submit", multipart: true) do %>
+
+<div class="form-group">
+  <label for="name"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "name").html_safe %>*</label>
+  <br>
+    <span class=<%="taxes-warning" + if !@name_warning then " hidden" else "" end%>>
+        <%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "name_warning").html_safe %>
+    </span>
+  <input type="text" name='name' class="form-control" id="name">
+</div>
+    <%= file_field_tag 'file' %>
+<br>
+<%= submit_tag nil, class: 'btn btn-default' %>
+<% end %>
+<br>

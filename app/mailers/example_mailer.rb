@@ -15,9 +15,9 @@ class ExampleMailer < ActionMailer::Base
     mail(:to => "48streetincometax@gmail.com", :subject => "48thStreetIncomeTax Contact Form - " + @name + " - " +time.strftime("%Y-%m-%d %H:%M:%S %Z") )
   end
 
-  def employment_email()
+  def employment_email(file)
 
-    attachments['gplus.png'] = File.read("#{Rails.root}/app/assets/images/gplus.png")
+    attachments["#{file.original_filename}"] = File.read(file.path)
     mail(:to => "blurgiamtrash@gmail.com",
          :subject => "Sending attachment")
   end
