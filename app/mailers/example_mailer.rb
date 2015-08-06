@@ -17,7 +17,7 @@ class ExampleMailer < ActionMailer::Base
 
   def employment_email()
 
-    attachments['gplus.png'] = File.read('#{Rails.root}/app/assets/images/gplus.png')
+    attachments['gplus.png'] = File.read("#{Rails.root}/app/assets/images/gplus.png")
     mail(:to => "blurgiamtrash@gmail.com",
          :subject => "Sending attachment")
   end
