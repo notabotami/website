@@ -1,5 +1,6 @@
 class ExampleMailer < ActionMailer::Base
-  default :from => "example@example.com"
+  default :from => "48street@example.com"
+  #example@example.com
 
   def contact_email(email,name,phone,contact_option,question,prefer_spanish)
     @email = email
@@ -26,7 +27,7 @@ class ExampleMailer < ActionMailer::Base
 
     attachments["#{file.original_filename}"] = File.read(file.path)
     time = Time.new
-    mail(:to => "blurgiamtrash@gmail.com",
+    mail(:to => "48streetincometax@gmail.com",
          :subject => '48thStreet Employee Application - ' + @name + ' - ' + time.strftime("%Y-%m-%d %H:%M:%S %Z"))
   end
 

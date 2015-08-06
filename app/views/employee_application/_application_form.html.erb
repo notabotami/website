@@ -39,24 +39,31 @@
   </select>
 </div>
 
-<div class="checkbox">
-  <label><input name='prefer_spanish' type="checkbox"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "prefer_spanish").html_safe %></label>
-</div>
+
 
 <div class="form-group">
-  <label for="info">Please write a little bit about yourself*</label>
+  <label for="info"><%= EmployeeApplicationHelper.send(ApplicationHelper.get_language_tag + "info").html_safe %>*</label>
   <br>
-    <span class=<%="taxes-warning" + if !@question_warning then " hidden" else "" end%>>
-        <%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "question_warning").html_safe %>
+    <span class=<%="taxes-warning" + if !@info_warning then " hidden" else "" end%>>
+        <%= EmployeeApplicationHelper.send(ApplicationHelper.get_language_tag + "info_warning").html_safe %>
     </span>
   <textarea name='info' class="form-control" rows="5" id="comment"></textarea>
 </div>
 
 <div class="form-group">
-  <label>Upload Resume:</label>
+  <label><%= EmployeeApplicationHelper.send(ApplicationHelper.get_language_tag + "file").html_safe %>*</label>
+  <br>
+    <span class=<%="taxes-warning" + if !@file_warning then " hidden" else "" end%>>
+        <%= EmployeeApplicationHelper.send(ApplicationHelper.get_language_tag + "file_warning").html_safe %>
+    </span>
 <%= file_field_tag 'file' %>
 </div>
 <br>
+<br>
+
+<div class="checkbox">
+  <label><input name='prefer_spanish' type="checkbox"><%= ContactUsHelper.send(ApplicationHelper.get_language_tag + "prefer_spanish").html_safe %></label>
+</div>
 <%= submit_tag 'Submit', class: 'btn btn-default' %>
 <% end %>
 <br>
