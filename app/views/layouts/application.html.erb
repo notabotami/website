@@ -34,7 +34,7 @@
 
       </div>
     <div id="navbarCollapse" class="collapse navbar-collapse taxes-navbar-content">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav taxes-nav-list">
 
       <% if !@current_user %>
 
@@ -77,8 +77,8 @@
                 <a class="btn btn-lg taxes-button" href="/change_to_spanish" role="button">Espa&ntildeol</a>
               </p>
 
-          <br>
-          <br>
+          <br class="hidden-lg">
+          <br class="hidden-lg">
 
           <div class="hidden-md hidden-lg taxes-centered taxes-centered-image taxes-jumbotron">
           <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe %>
@@ -92,14 +92,29 @@
             <div class="row">
 
               <div class="col-md-2 taxes-stacked">
-                <%= image_tag("alicia_lopez.jpg", :class => 'taxes-centered-image img-circle img img-responsive') %>
-                <p class="taxes-centered">Alicia Lopez</p>
-                <br>
+
                 <%= image_tag("clemente.png", :class => 'taxes-centered-image img-circle img img-responsive') %>
-                <p class="taxes-centered">Clemente Velasco</p>
+                <p class="taxes-centered taxes-picture-caption taxes-picture-caption-title">Clemente Velasco</p>
+                <p class="taxes-centered taxes-picture-caption"><%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "boss").html_safe %></p>
+
+                <br>
+                <br>
+                <br>
+                <%= image_tag("alicia_lopez.jpg", :class => 'taxes-centered-image img-circle img img-responsive') %>
+                <p class="taxes-centered taxes-picture-caption taxes-picture-caption-title">Alicia Lopez</p>
+                <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "general_manager").html_safe %></p>
+                <br>
+                <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "marketing_coordinator_female").html_safe %></p>
+                <br>
+                <br>
                 <br>
                 <%= image_tag("blanca.jpg", :class => 'taxes-centered-image img-circle img img-responsive') %>
-                <p class="taxes-centered">Blanca Morales</p>
+                <p class="taxes-centered taxes-picture-caption taxes-picture-caption-title">Blanca Morales</p>
+                <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "tax_preparer_female").html_safe %></p>
+                <br>
+                <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "admin_assistant").html_safe %></p>
+                <br>
+                <br>
                 <br>
 
               </div>
@@ -108,6 +123,8 @@
 
 
                 <%= yield %>
+                <br>
+                <hr class="hidden-lg">
               </div>
 
               <div class="col-md-3 taxes-stacked">

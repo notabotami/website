@@ -15,7 +15,7 @@ module SidebarHelper
           <br>
           Email:
           <br>
-          48streetincometax@gmail.com
+          <span class='taxes-slightly-smaller'>48streetincometax@gmail.com</span>
         </p>
 
 <br>

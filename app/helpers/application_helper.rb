@@ -187,6 +187,66 @@ module ApplicationHelper
 
   #####
 
+  def self.en_boss
+    return "CEO"
+  end
+
+  def self.es_boss
+    return "Due&ntildeo"
+  end
+
+  #####
+
+  def self.en_general_manager
+    return "Owner and General Manager"
+  end
+
+  def self.es_general_manager
+    return "Due&ntildea y Gerente General"
+  end
+
+  #####
+
+  def self.en_marketing_coordinator_female
+    return "Marketing Coordinator"
+  end
+
+  def self.es_marketing_coordinator_female
+    return "Coordinadora de Marketing"
+  end
+
+  #####
+
+  def self.en_tax_preparer_female
+    return "Tax Preparer"
+  end
+
+  def self.es_tax_preparer_female
+    return "Preparadora de Impuestos"
+  end
+
+  #####
+
+  def self.en_tax_preparer_male
+    return "Tax Preparer"
+  end
+
+  def self.es_tax_preparer_male
+    return "Preparador de Impuestos"
+  end
+
+  #####
+
+  def self.en_admin_assistant
+    return "Administrative Assistant"
+  end
+
+  def self.es_admin_assistant
+    return "Asistente Administrivo"
+  end
+
+  #####
+
 
 
 end
