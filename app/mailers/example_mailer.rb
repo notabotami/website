@@ -1,7 +1,7 @@
 class ExampleMailer < ActionMailer::Base
   default :from => "example@example.com"
 
-  def sample_email(email,name,phone,contact_option,question,prefer_spanish)
+  def contact_email(email,name,phone,contact_option,question,prefer_spanish)
     @email = email
     @name = name
     @phone = phone
@@ -14,5 +14,14 @@ class ExampleMailer < ActionMailer::Base
     time = Time.new
     mail(:to => "48streetincometax@gmail.com", :subject => "48thStreetIncomeTax Contact Form - " + @name + " - " +time.strftime("%Y-%m-%d %H:%M:%S %Z") )
   end
+
+  def employment_email()
+
+    attachments['gplus.png'] = File.read('/assets/gplus.png')
+    mail(:to => "blurgiamtrash@gmail.com",
+         :subject => "Sending attachment")
+  end
+
+
 
 end

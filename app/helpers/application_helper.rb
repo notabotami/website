@@ -56,7 +56,7 @@ module ApplicationHelper
   #####
 
   def self.en_home
-    return "home(inicio)"
+    return "home"
   end
 
   def self.es_home

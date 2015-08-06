@@ -53,6 +53,7 @@
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "privacy").html_safe,'/privacy',:method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "location").html_safe, '/location', :method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe, '/contact_us', :method => 'get') %></li>
+        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "employee_application").html_safe, '/employee_application', :method => 'get', :class => "hidden") %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "same_sex_marriage").html_safe, '/same_sex_marriage', :method => 'get') %></li>
 
 
@@ -90,13 +91,26 @@
 
             <div class="row">
 
-              <div class="col-md-8 ">
+              <div class="col-md-2 taxes-stacked">
+                <%= image_tag("alicia_lopez.jpg", :class => 'taxes-centered-image img-circle img img-responsive') %>
+                <p class="taxes-centered">Alicia Lopez</p>
+                <br>
+                <%= image_tag("clemente.png", :class => 'taxes-centered-image img-circle img img-responsive') %>
+                <p class="taxes-centered">Clemente Velasco</p>
+                <br>
+                <%= image_tag("blanca.jpg", :class => 'taxes-centered-image img-circle img img-responsive') %>
+                <p class="taxes-centered">Blanca Morales</p>
+                <br>
+
+              </div>
+
+              <div class="col-md-7 ">
 
 
                 <%= yield %>
               </div>
 
-              <div class="col-md-4 taxes-stacked">
+              <div class="col-md-3 taxes-stacked">
                 <%= render 'sidebar/sidebar' %>
               </div><!-- /.sidebar -->
 

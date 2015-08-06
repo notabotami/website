@@ -8,4 +8,10 @@ class EmployeeApplicationController < ApplicationController
     end
   end
 
+  def employee_application_submit
+
+    logger.tagged("employee_application_submit") {logger.debug "Made it!"}
+    ExampleMailer.employment_email().deliver!
+  end
+
 end

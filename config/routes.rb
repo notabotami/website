@@ -15,7 +15,9 @@ BastaScheduler::Application.routes.draw do
   get '/contact_us', to: 'contact_us#contact_us'
   post '/contact_us_submit', to: 'contact_us#contact_us_submit'
   get '/employee_application', to: 'employee_application#employee_application'
-  get '/sample_email', to: 'email#sample_email'
+  post '/employee_application_submit', to: 'employee_application#employee_application_submit'
+  get '/contact_email', to: 'email#contact_email'
+  get '/employment_email', to: 'email#employment_email'
   get '/itin', to: 'itin#itin'
   get '/same_sex_marriage', to: 'same_sex_marriage#same_sex_marriage'
 
@@ -30,7 +32,7 @@ BastaScheduler::Application.routes.draw do
 
 
 
-  get '/user/view_profile', to:'users#view_profile'
+  #get '/user/view_profile', to:'users#view_profile'
   # map '/' to be a redirect to '/current'
   root :to => redirect('/home')
 end
