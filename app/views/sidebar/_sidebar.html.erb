@@ -186,4 +186,20 @@
     <%= render 'sidebar/carousel_testimonials' %>
   </div>
 
+  <div class="sidebar-module">
+    <div class="panel-heading">
+      <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate").html_safe %></h4>
+    </div>
+    <ol class="list-unstyled taxes-spaced">
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_mexico_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_mexico").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_guatemala_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_guatemala").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_el_salvador_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_el_salvador").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_honduras_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_honduras").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_nicaragua_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_nicaragua").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_colombia_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_colombia").html_safe %></a></li>
+
+
+    </ol>
+  </div>
+
 </div>

@@ -729,6 +729,137 @@ dan ¡$1,000 adicionales de reembolso por niño!
   end
 
 
+  def self.en_consulate
+    return "Consulates"
+  end
+
+  def self.es_consulate
+    return "Consulados"
+  end
+
+#####
+
+  def self.en_consulate_mexico
+    return "Mexican Consulate in Omaha"
+  end
+
+  def self.es_consulate_mexico
+    return "Consulado de M&eacutexico en Omaha"
+  end
+
+#####
+
+  def self.en_consulate_mexico_link
+    return "http://consulmex.sre.gob.mx/omaha/"
+  end
+
+  def self.es_consulate_mexico_link
+    return "http://consulmex.sre.gob.mx/omaha/"
+  end
+
+#####
+
+  def self.en_consulate_guatemala
+    return "Guatemalan Consulate in Chicago"
+  end
+
+  def self.es_consulate_guatemala
+    return "Consulado de Guatemala en Chicago"
+  end
+
+#####
+
+  def self.en_consulate_guatemala_link
+    return "http://www.consulguatechicago.org/"
+  end
+
+  def self.es_consulate_guatemala_link
+    return "http://www.consulguatechicago.org/"
+  end
+
+#####
+
+  def self.en_consulate_el_salvador
+    return "El Salvadorian Consulate"
+  end
+
+  def self.es_consulate_el_salvador
+    return "Consulado del Salvador"
+  end
+
+#####
+
+  def self.en_consulate_el_salvador_link
+    return "http://www.rree.gob.sv/"
+  end
+
+  def self.es_consulate_el_salvador_link
+    return "http://www.rree.gob.sv/"
+  end
+
+#####
+
+  def self.en_consulate_honduras
+    return "Honduran Consulate"
+  end
+
+  def self.es_consulate_honduras
+    return "Consulado de Honduras"
+  end
+
+#####
+
+  def self.en_consulate_honduras_link
+    return "http://www.hondurasemb.org/"
+  end
+
+  def self.es_consulate_honduras_link
+    return "http://www.hondurasemb.org/"
+  end
+
+#####
+
+  def self.en_consulate_nicaragua
+    return "Nicaraguan Consulate in Miami"
+  end
+
+  def self.es_consulate_nicaragua
+    return "Consulado de Nicaragua en Miami"
+  end
+
+#####
+
+  def self.en_consulate_nicaragua_link
+    return "http://www.consuladonicamiami.com/cms/"
+  end
+
+  def self.es_consulate_nicaragua_link
+    return "http://www.consuladonicamiami.com/cms/"
+  end
+
+#####
+
+  def self.en_consulate_colombia
+    return "Colombian Consulate in Chicago"
+  end
+
+  def self.es_consulate_colombia
+    return "Consulado de Colombia en Chicago"
+  end
+
+#####
+
+  def self.en_consulate_colombia_link
+    return "http://chicago.consulado.gov.co/"
+  end
+
+  def self.es_consulate_colombia_link
+    return "http://chicago.consulado.gov.co/"
+  end
+
+#####
+
+
 
 
 end
