@@ -1,11 +1,5 @@
 BastaScheduler::Application.routes.draw do
 
-
-
-  resources :users
-  resources :user_ranks
-
-
   get '/home', to: 'home#home'
   get '/about', to: 'about#about'
   get '/services', to: 'services#services'
