@@ -25,6 +25,7 @@ class ExampleMailer < ActionMailer::Base
     @prefer_spanish=prefer_spanish
 
     attachments["#{file.original_filename}"] = File.read(file.path)
+    time = Time.new
     mail(:to => "blurgiamtrash@gmail.com",
          :subject => '48thStreet Employee Application - ' + @name + ' - ' + time.strftime("%Y-%m-%d %H:%M:%S %Z"))
   end
