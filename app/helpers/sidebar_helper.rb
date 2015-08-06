@@ -37,9 +37,9 @@ module SidebarHelper
           109 S Main St, Denison, IA 51442
           <br>
           <br>
-          Email:
+          Correo Electr&oacutenico:
           <br>
-          48streetincometax@gmail.com
+          <span class='taxes-slightly-smaller'>48streetincometax@gmail.com</span>
         </p>
 <br>
 <br>
