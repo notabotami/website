@@ -167,6 +167,17 @@ module ApplicationHelper
 
   #####
 
+  def self.en_other_links
+    return "other links"
+  end
+
+  def self.es_other_links
+    return "otros enlaces"
+
+  end
+
+  #####
+
   def self.en_social
     return "Get Social with Us!"
   end
@@ -188,21 +199,21 @@ module ApplicationHelper
   #####
 
   def self.en_boss
-    return "CEO"
+    return "Owner | CEO"
   end
 
   def self.es_boss
-    return "Due&ntildeo"
+    return "Due&ntildeo | Director Ejecutivo"
   end
 
   #####
 
   def self.en_general_manager
-    return "Owner and General Manager"
+    return "Owner | General Manager"
   end
 
   def self.es_general_manager
-    return "Due&ntildea y Gerente General"
+    return "Due&ntildea | Gerente General"
   end
 
   #####

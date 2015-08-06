@@ -3,12 +3,13 @@
 <p>
 
   <%= LocationHelper.send(ApplicationHelper.get_language_tag + "location_para").html_safe %>
+</p>
 
   <br>
   <br>
 
-<div class="hidden-sm hidden-xs taxes-centered">
-  <%= image_tag '48thstreet_frontview.jpg' %>
+<div class=" taxes-centered">
+  <img src="assets/48thstreet_frontview.jpg" class="img-rounded img-responsive taxes-centered-image">
 </div>
 
 <br>
@@ -16,13 +17,15 @@
 
 <div class="hidden-sm hidden-xs taxes-centered">
   <%= render 'maps/maps_large' %>
+  <br>
+  <br>
 </div>
 
-<br>
-<br>
 
-<div class="hidden-sm hidden-xs taxes-centered">
-  <%= image_tag 'together.jpg' %>
+
+<div class="taxes-centered">
+  <img src="assets/together.jpg" class="img-rounded img-responsive taxes-centered-image">
+
 </div>
 
-</p>
+

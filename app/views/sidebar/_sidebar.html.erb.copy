@@ -1,0 +1,216 @@
+<div class="taxes-sidebar">
+
+<div class="sidebar-module sidebar-module-inset">
+
+      <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe %>
+
+  </div>
+
+
+<div class=" taxes-centered">
+  <a href="https://cisc.sbtpg.com/taxpayers/refund_transfer.aspx">
+    <img src= <%= "assets/" + ApplicationHelper.get_language_tag + "tpg_poster.jpg" %> class="img-rounded img-responsive taxes-centered-image">
+  </a>
+</div>
+
+  <div class="sidebar-module">
+    <div class="panel-heading">
+        <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "refund_status").html_safe %></h4>
+    </div>
+    <ol class="list-unstyled taxes-spaced">
+      <li class="even"><a href="https://cisc.sbtpg.com/taxpayers/refund_transfer.aspx"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "refund_transfer")%></a></li>
+      <li class="odd"><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "federal_link")%> ><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "federal").html_safe %></a></li>
+      <li class="even"><a href="https://ndr-refundstatus.ne.gov/refundstatus/public/search.faces"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "nebraska").html_safe %></a></li>
+      <li class="odd"><a href="https://www.idr.iowa.gov/wheresmyrefund/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa").html_safe %></a></li>
+      <li>
+        <div class="btn-group">
+          <button type="button" class="btn taxes-button dropdown-toggle" data-toggle="dropdown"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "refund_status_state").html_safe %><span class="caret"></span></button>
+          <ul class="dropdown-menu scrollable-menu" role="menu">
+            <li><a href="https://myalabamataxes.alabama.gov/_/" >Alabama</a> </li>
+            <li><a href="http://www.tax.alaska.gov/" >Alaska</a>  </li>
+            <li><a href="https://www.azdor.gov/news/tabid/74/newsid530/363/wheres-my-refund/default.aspx" >Arizona</a>  </li>
+            <li><a href="https://atap.arkansas.gov/_/#1" >Arkansas</a> </li>
+            <li><a href="https://www.ftb.ca.gov/online/refund/index.asp?WT.mc_id=HP_Online_WheresMyRefund" >California</a>  </li>
+            <li><a href="https://www.colorado.gov/revenueonline/_/#1" >Colorado</a>  </li>
+
+            <li><a href="http://www.ct.gov/drs/cwp/view.asp?a=1462&q=266274" >Connecticut</a> </li>
+            <li><a href="https://dorweb.revenue.delaware.gov/refinq/" >Delaware</a> </li>
+            <li><a href="http://dor.myflorida.com/dor/taxes/refunds.html" >Florida</a>  </li>
+            <li><a href="https://dor.georgia.gov/wheres-my-refund" >Georgia</a>  </li>
+            <li><a href="https://tax.ehawaii.gov/hoihoi/refund.html" >Hawaii</a> </li>
+            <li><a href="https://idahotap.gentax.com/TAP/_/" >Idaho</a> </li>
+            <li><a href="http://www.revenue.state.il.us/individuals/refunds.htm" >Illinois</a> </li>
+            <li><a href="http://www.in.gov/dor/4339.htm" >Indiana</a> </li>
+            <li><a href="https://www.idr.iowa.gov/wheresmyrefund/" >Iowa</a> </li>
+            <li><a href="https://www.kdor.org/Refundstatus/default.asp" >Kansas</a> </li>
+
+            <li><a href="http://www.revenue.ky.gov/refund.htm" >Kentucky</a>  </li>
+            <li><a href="https://esweb.revenue.louisiana.gov/wheresmyrefund/" >Louisiana</a>  </li>
+            <li><a href="https://portal.maine.gov/refundstatus/Registration.do;jsessionid=D_EDNiFIqGfYxS84fBnikYyER8M4jxh3PjmnDsCKMi4SeNLIy2G7!-1481271806" >Maine</a>  </li>
+            <li><a href="https://interactive.marylandtaxes.com/indiv/refundstatus/home.aspx" >Maryland</a> </li>
+            <li><a href="https://wfb.dor.state.ma.us/webfile/wsi/Public/Webforms/Features/ViewActivity.aspx" >Massachusetts</a>  </li>
+            <li><a href="http://www.michigan.gov/taxes/0,4676,7-238--302425--,00.html" >Michigan</a> </li>
+            <li><a href="https://www.mndor.state.mn.us/tp/refund/home" >Minnesota</a>  </li>
+
+            <li><a href="https://www.dor.ms.gov/taxareas/individ/main.html" >Mississippi</a> </li>
+            <li><a href="https://dors.mo.gov/tax/taxinq/welcome.jsp" >Missouri</a> </li>
+            <li><a href="http://www.discoveringmontana.com/revenue/default.asp" >Montana</a>  </li>
+            <li><a href="https://ndr-refundstatus.ne.gov/refundstatus/public/search.faces" >Nebraska</a>  </li>
+            <li><a href="http://tax.state.nv.us/" >Nevada</a> </li>
+            <li><a href="http://www.state.nh.us/revenue/index.htm" >New Hampshire</a>  </li>
+            <li><a href="https://www16.state.nj.us/TYTR_TGI_INQ/jsp/prompt.jsp" >New Jersey</a>  </li>
+            <li><a href="http://www.tax.newmexico.gov/" >http://www.tax.newmexico.gov/Individuals/individuals-where-is-my-refund.aspx</a> </li>
+
+            <li><a href="http://www.tax.ny.gov/" >http://www.tax.ny.gov/pit/file/refund.htm</a>  </li>
+            <li><a href="https://eservices.dor.nc.gov/wheresmyrefund/SelectionServlet" >North Carolina</a>  </li>
+            <li><a href="https://www.nd.gov/tax/indincome/refundinfo/" >North Dakota</a>  </li>
+            <li><a href="https://www.tax.state.oh.us/IFILE/WheresMyRefundWeb/wheresmyrefund.jsp" >Ohio</a>  </li>
+            <li><a href="http://www.ok.gov/tax/Individuals/Income_Tax/Filing_Information/How_to_Check_on_a_Refund/" >Oklahoma</a>  </li>
+            <li><a href="https://secure.dor.state.or.us/refund/index.cfm" >Oregon</a>  </li>
+            <li><a href="https://www.doreservices.state.pa.us/individual/refunddefault.htm" >Pennsylvania</a>  </li>
+            <li><a href="https://www.ri.gov/taxation/refund/" >Rhode Island</a>  </li>
+            <li><a href="https://www3.sctax.org/refundstatus/refund.aspx" >South Carolina</a>  </li>
+            <li><a href="http://www.state.sd.us/drr2/Revenue.html" >South Dakota</a>  </li>
+            <li><a href="http://www.state.tn.us/revenue/" >Tennessee</a> </li>
+            <li><a href="http://www.window.state.tx.us/m23taxes.html" >Texas</a> </li>
+            <li><a href="http://revenue.state.wy.us/" >Wyoming</a></li>
+
+            <li><a href="http://incometax.utah.gov/refunds/wheres-my-refund" >Utah</a></li>
+            <li><a href="https://secure.vermont.gov/TAX/refund/" >Vermont</a> </li>
+            <li><a href="https://www.individual.tax.virginia.gov/VTOL/IndRefundStatus.seam" >Virginia</a>  </li>
+            <li><a href="http://dor.wa.gov/" >Washington</a>  </li>
+            <li><a href="http://otr.cfo.dc.gov/service/check-your-tax-refund-status" >Washington D.C.</a> </li>
+            <li><a href="http://www.revenue.wv.gov/Pages/Where'sMyRefund.aspx" >West Virginia</a>  </li>
+            <li><a href="https://www.revenue.wi.gov/individuals/refund-delay.html" >Wisconsin</a>  </li>
+          </ul>
+        </div>
+      </li>
+
+    </ol>
+
+  </div>
+
+
+  <div class="sidebar-module">
+    <div class="panel-heading">
+        <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_information").html_safe %></h4>
+    </div>
+    <ol class="list-unstyled taxes-spaced">
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_homepage_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_homepage").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_news_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_news").html_safe %></a></li>
+      <li><a href="http://www.irs.gov/Forms-&-Pubs"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_forms").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_self_employment_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_self_employment").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "itin_numbers_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "itin_numbers").html_safe %></a></li>
+      <li><a href="http://www.dhs.gov/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "homeland_security").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "immigration_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "immigration").html_safe %></a></li>
+      <li><a href="http://www.irs.gov/Individuals/Get-An-Identity-Protection-PIN"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "identity_pin").html_safe %></a></li>
+      <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "tips_preparer_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "tips_preparer").html_safe %></a></li>
+      <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "identity_protection_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "identity_protection").html_safe %></a></li>
+      <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "tax_fraud_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "tax_fraud").html_safe %></a></li>
+      <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "phishing_scams_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "phishing_scams").html_safe %></a></li>
+      <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "apply_ein_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "apply_ein").html_safe %></a></li>
+      <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "tax_calendar_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "tax_calendar").html_safe %></a></li>
+      <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "online_payments_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "online_payments").html_safe %></a></li>
+      <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "address_changes_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "address_changes").html_safe %></a></li>
+      <li><a href=<%= SidebarHelper.send(ApplicationHelper.get_language_tag + "return_transcript_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "return_transcript").html_safe %></a></li>
+
+
+    </ol>
+  </div>
+
+  <div class="sidebar-module">
+    <div class="panel-heading">
+        <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa_information").html_safe %></h4>
+    </div>
+    <ol class="list-unstyled taxes-spaced">
+      <li><a href="https://tax.iowa.gov/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa_department_revenue").html_safe %></a></li>
+      <li><a href="http://www.revenue.nebraska.gov/index.html"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "nebraska_department_revenue").html_safe %></a></li>
+      <li>
+          <div class="btn-group">
+            <button type="button" class="btn taxes-button dropdown-toggle" data-toggle="dropdown"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "state_information").html_safe %><span class="caret"></span></button>
+            <ul class="dropdown-menu scrollable-menu" role="menu">
+              <li><a href="http://www.ador.state.al.us/" >Alabama</a> </li>
+              <li><a href="http://www.revenue.state.ak.us/" >Alaska</a>  </li>
+              <li><a href="http://www.revenue.state.az.us/" >Arizona</a>  </li>
+              <li><a href="http://www.state.ar.us/dfa/" >Arkansas</a> </li>
+              <li><a href="http://www.ftb.ca.gov/" >California</a>  </li>
+              <li><a href="http://www.taxcolorado.com/" >Colorado</a>  </li>
+              <li><a href="http://www.ct.gov/drs/site/default.asp" >Connecticut</a> </li>
+              <li><a href="http://www.state.de.us/revenue/" >Delaware</a> </li>
+              <li><a href="http://dor.myflorida.com/dor/" >Florida</a>  </li>
+              <li><a href="http://www.etax.dor.ga.gov/" >Georgia</a>  </li>
+              <li><a href="http://www.state.hi.us/tax/tax.html" >Hawaii</a> </li>
+              <li><a href="http://tax.idaho.gov/index.html" >Idaho</a> </li>
+              <li><a href="http://www.revenue.state.il.us/" >Illinois</a> </li>
+              <li><a href="http://www.in.gov/dor/" >Indiana</a> </li>
+              <li><a href="http://www.state.ia.us/tax/index.html" >Iowa</a> </li>
+              <li><a href="http://www.ksrevenue.org/" >Kansas</a> </li>
+              <li><a href="http://revenue.ky.gov/" >Kentucky</a>  </li>
+              <li><a href="http://www.rev.state.la.us/" >Louisiana</a>  </li>
+              <li><a href="http://www.state.me.us/revenue" >Maine</a>  </li>
+              <li><a href="http://www.comp.state.md.us/default.asp" >Maryland</a> </li>
+              <li><a href="http://www.dor.state.ma.us/" >Massachusetts</a>  </li>
+              <li><a href="http://www.michigan.gov/treasury" >Michigan</a> </li>
+              <li><a href="http://www.taxes.state.mn.us/" >Minnesota</a>  </li>
+              <li><a href="http://www.mstc.state.ms.us/" >Mississippi</a> </li>
+              <li><a href="http://www.dor.mo.gov/index.htm" >Missouri</a> </li>
+              <li><a href="http://www.discoveringmontana.com/revenue/default.asp" >Montana</a>  </li>
+              <li><a href="http://www.revenue.state.ne.us/index.html" >Nebraska</a>  </li>
+              <li><a href="http://tax.state.nv.us/" >Nevada</a> </li>
+              <li><a href="http://www.state.nh.us/revenue/index.htm" >New Hampshire</a>  </li>
+              <li><a href="http://www.state.nj.us/treasury/taxation/" >New Jersey</a>  </li>
+              <li><a href="http://www.tax.newmexico.gov/" >New Mexico</a> </li>
+              <li><a href="http://www.tax.ny.gov/" >New York</a>  </li>
+              <li><a href="http://www.dor.state.nc.us/" >North Carolina</a>  </li>
+              <li><a href="http://www.nd.gov/tax/" >North Dakota</a>  </li>
+              <li><a href="http://tax.ohio.gov/" >Ohio</a>  </li>
+              <li><a href="http://www.oktax.state.ok.us/" >Oklahoma</a>  </li>
+              <li><a href="http://www.oregon.gov/DOR/" >Oregon</a>  </li>
+              <li><a href="http://www.revenue.state.pa.us/" >Pennsylvania</a>  </li>
+              <li><a href="http://www.tax.ri.gov/" >Rhode Island</a>  </li>
+              <li><a href="http://www.sctax.org/" >South Carolina</a>  </li>
+              <li><a href="http://www.state.sd.us/drr2/Revenue.html" >South Dakota</a>  </li>
+              <li><a href="http://www.state.tn.us/revenue/" >Tennessee</a> </li>
+              <li><a href="http://www.window.state.tx.us/m23taxes.html" >Texas</a> </li>
+              <li><a href="http://revenue.state.wy.us/" >Wyoming</a></li>
+              <li><a href="http://tax.utah.gov/" >Utah</a></li>
+              <li><a href="http://www.state.vt.us/tax/" >Vermont</a> </li>
+              <li><a href="http://www.tax.virginia.gov/" >Virginia</a>  </li>
+              <li><a href="http://dor.wa.gov/" >Washington</a>  </li>
+              <li><a href="http://cfo.dc.gov/otr/site/default.asp" >Washington D.C.</a> </li>
+              <li><a href="http://www.wvrevenue.gov/" >West Virginia</a>  </li>
+              <li><a href="http://www.revenue.wi.gov/" >Wisconsin</a>  </li>
+            </ul>
+          </div>
+      </li>
+
+    </ol>
+  </div>
+
+
+  <div class="sidebar-module">
+    <div class="panel-heading">
+        <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "testimonials").html_safe %></h4>
+    </div>
+
+    <%= render 'sidebar/carousel_testimonials' %>
+  </div>
+
+
+  <div class="sidebar-module sidebar-module-inset-alt">
+
+    <h3><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate").html_safe %></h3>
+
+    <ol class="list-unstyled taxes-spaced">
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_mexico_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_mexico").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_guatemala_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_guatemala").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_el_salvador_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_el_salvador").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_honduras_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_honduras").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_nicaragua_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_nicaragua").html_safe %></a></li>
+      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_colombia_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_colombia").html_safe %></a></li>
+
+
+    </ol>
+  </div>
+
+</div>

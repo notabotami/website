@@ -1,14 +1,25 @@
 <div class="taxes-sidebar">
-  <div class="sidebar-module sidebar-module-inset">
+
+<div class="sidebar-module@">
 
       <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe %>
 
   </div>
+
+
+<div class=" sidebar-module taxes-centered">
+  <a href="https://cisc.sbtpg.com/taxpayers/refund_transfer.aspx">
+    <img src= <%= "assets/" + ApplicationHelper.get_language_tag + "tpg_poster.jpg" %> class="img-rounded img-responsive taxes-centered-image">
+  </a>
+</div>
+
   <div class="sidebar-module">
     <div class="panel-heading">
-        <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "refund_status").html_safe %></h4>
+        <h3><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "refund_status").html_safe %></h3>
     </div>
+
     <ol class="list-unstyled taxes-spaced">
+      <li class="even"><a href="https://cisc.sbtpg.com/taxpayers/refund_transfer.aspx"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "refund_transfer")%></a></li>
       <li class="odd"><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "federal_link")%> ><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "federal").html_safe %></a></li>
       <li class="even"><a href="https://ndr-refundstatus.ne.gov/refundstatus/public/search.faces"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "nebraska").html_safe %></a></li>
       <li class="odd"><a href="https://www.idr.iowa.gov/wheresmyrefund/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa").html_safe %></a></li>
@@ -83,8 +94,9 @@
 
   <div class="sidebar-module">
     <div class="panel-heading">
-        <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_information").html_safe %></h4>
+        <h3><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_information").html_safe %></h3>
     </div>
+
     <ol class="list-unstyled taxes-spaced">
       <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_homepage_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_homepage").html_safe %></a></li>
       <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_news_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "irs_news").html_safe %></a></li>
@@ -110,8 +122,9 @@
 
   <div class="sidebar-module">
     <div class="panel-heading">
-        <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa_information").html_safe %></h4>
-    </div>
+        <h3><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa_information").html_safe %></h3>
+      </div>
+
     <ol class="list-unstyled taxes-spaced">
       <li><a href="https://tax.iowa.gov/"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "iowa_department_revenue").html_safe %></a></li>
       <li><a href="http://www.revenue.nebraska.gov/index.html"><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "nebraska_department_revenue").html_safe %></a></li>
@@ -177,29 +190,33 @@
     </ol>
   </div>
 
+<div class="sidebar-module sidebar-module-inset-alt">
+
+  <h3><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate").html_safe %></h3>
+
+  <ol class="list-unstyled taxes-spaced">
+    <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_mexico_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_mexico").html_safe %></a></li>
+    <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_guatemala_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_guatemala").html_safe %></a></li>
+    <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_el_salvador_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_el_salvador").html_safe %></a></li>
+    <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_honduras_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_honduras").html_safe %></a></li>
+    <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_nicaragua_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_nicaragua").html_safe %></a></li>
+    <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_colombia_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_colombia").html_safe %></a></li>
+
+
+  </ol>
+</div>
 
   <div class="sidebar-module">
     <div class="panel-heading">
-        <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "testimonials").html_safe %></h4>
+        <h3><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "testimonials").html_safe %></h3>
     </div>
+
 
     <%= render 'sidebar/carousel_testimonials' %>
   </div>
 
-  <div class="sidebar-module">
-    <div class="panel-heading">
-      <h4><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate").html_safe %></h4>
-    </div>
-    <ol class="list-unstyled taxes-spaced">
-      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_mexico_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_mexico").html_safe %></a></li>
-      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_guatemala_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_guatemala").html_safe %></a></li>
-      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_el_salvador_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_el_salvador").html_safe %></a></li>
-      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_honduras_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_honduras").html_safe %></a></li>
-      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_nicaragua_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_nicaragua").html_safe %></a></li>
-      <li><a href=<%=SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_colombia_link")%>><%= SidebarHelper.send(ApplicationHelper.get_language_tag + "consulate_colombia").html_safe %></a></li>
 
 
-    </ol>
-  </div>
+
 
 </div>

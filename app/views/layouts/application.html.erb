@@ -23,7 +23,7 @@
   <div class="container">
 
   <nav role="navigation" class="navbar navbar-fixed-top">
-    <div class="container">
+
       <div class="navbar-header">
         <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
           <span class="sr-only">Toggle navigation</span>
@@ -48,22 +48,33 @@
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "home").html_safe, home_path, :method => 'get',"data-toggle" => "tab") %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "about").html_safe, about_path, :method => 'get', "data-toggle" => "tab") %> </li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "services").html_safe, services_path, :method => 'get', "data-toggle" => "tab") %></li>
-        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "itin").html_safe, '/itin', :method => 'get') %></li>
-        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "questions_and_answers").html_safe,'/questions_and_answers', :method => 'get') %></li>
-        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "privacy").html_safe,'/privacy',:method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "location").html_safe, '/location', :method => 'get') %></li>
         <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe, '/contact_us', :method => 'get') %></li>
-        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "employee_application").html_safe, '/employee_application', :method => 'get') %></li>
-        <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "same_sex_marriage").html_safe, '/same_sex_marriage', :method => 'get') %></li>
+        <li role="presentation" class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "other_links").html_safe %> <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu taxes-nav-list">
+            <li></li>
+            <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "employee_application").html_safe, '/employee_application', :method => 'get') %></li>
+            <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "itin").html_safe, '/itin', :method => 'get') %></li>
+            <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "questions_and_answers").html_safe,'/questions_and_answers', :method => 'get') %></li>
+            <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "privacy").html_safe,'/privacy',:method => 'get') %></li>
+            <li> <%= link_to(ApplicationHelper.send(ApplicationHelper.get_language_tag + "same_sex_marriage").html_safe, '/same_sex_marriage', :method => 'get') %></li>
+          </ul>
+        </li>
+
 
 
 
 
       </ul>
     </div>
-    </div>
+
   </nav>
 
+    <br class="hidden-xs hidden-md hidden-lg">
+    <br class="hidden-xs hidden-md hidden-lg">
     </div>
       <div id="main" class="container taxes-content" role="main">
 
@@ -81,7 +92,7 @@
           <br class="hidden-lg">
 
           <div class="hidden-md hidden-lg taxes-centered taxes-centered-image taxes-jumbotron">
-          <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "contact_us").html_safe %>
+          <%= SidebarHelper.send(ApplicationHelper.get_language_tag + "contact_us_jumbo").html_safe %>
             </div>
         </div>
 
@@ -95,6 +106,7 @@
 
                 <%= image_tag("clemente.png", :class => 'taxes-centered-image img-circle img img-responsive') %>
                 <p class="taxes-centered taxes-picture-caption taxes-picture-caption-title">Clemente Velasco</p>
+                <hr>
                 <p class="taxes-centered taxes-picture-caption"><%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "boss").html_safe %></p>
 
                 <br>
@@ -102,16 +114,18 @@
                 <br>
                 <%= image_tag("alicia_lopez.jpg", :class => 'taxes-centered-image img-circle img img-responsive') %>
                 <p class="taxes-centered taxes-picture-caption taxes-picture-caption-title">Alicia Lopez</p>
+                <hr>
                 <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "general_manager").html_safe %></p>
-                <br>
+                <hr>
                 <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "marketing_coordinator_female").html_safe %></p>
                 <br>
                 <br>
                 <br>
                 <%= image_tag("blanca.jpg", :class => 'taxes-centered-image img-circle img img-responsive') %>
                 <p class="taxes-centered taxes-picture-caption taxes-picture-caption-title">Blanca Morales</p>
+                <hr>
                 <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "tax_preparer_female").html_safe %></p>
-                <br>
+                <hr>
                 <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "admin_assistant").html_safe %></p>
                 <br>
                 <br>
@@ -123,8 +137,15 @@
 
 
                 <%= yield %>
+
+                <br>
+                <br>
+
+
+
                 <br>
                 <hr class="hidden-lg">
+
               </div>
 
               <div class="col-md-3 taxes-stacked">

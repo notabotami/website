@@ -59,6 +59,22 @@
   color: #ffffff;
   border-radius: 4px;
 }
+
+.sidebar-module-inset-alt {
+  padding: 15px;
+  background-color: #FF9900;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.sidebar-module-inset > ol > li > a {
+  color: #ffffff;
+}
+
+.sidebar-module-inset-alt > ol > li > a {
+  color: #ffffff;
+}
+
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
 .sidebar-module-inset ol:last-child {
@@ -142,11 +158,18 @@
 .taxes-small{
   font-size: .7em;
 }
+
+.taxes-highlight-jumbo{
+  color: #ffffff;
+
+}
+
 .taxes-highlight-alt{
   color: #FF6600;
 }
 .taxes-highlight{
   color: #324C7F;
+
 }
 
 .taxes-warning{
@@ -155,6 +178,7 @@
 
 .taxes-nav-list li{
   padding-right: 10px;
+  text-transform: uppercase;
 }
 
 .taxes-slightly-smaller{
@@ -169,9 +193,24 @@
   font-weight: bolder;
 }
 
-li.even{
-  color: rgb(80,50,120);
+.dropdown-menu{
+  color: #ffffff;
+  background-color: #5C85AD;
 }
+.dropdown-menu li a{
+  color: #ffffff;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 body{
   font-size: 150%;
 }

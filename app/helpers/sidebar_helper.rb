@@ -1,25 +1,75 @@
 module SidebarHelper
 
+  def self.en_contact_us_jumbo
+    return "<h4>Contact Us!</h4>
+        <p>
+          Telephone Number:
+          <br>
+          <span class='taxes-highlight-jumbo'>712-263-3313</span>
+          <br>
+          <br>
+          Office Address:
+          <br>
+          <span class='taxes-highlight-jumbo'>109 S Main St, Denison, IA 51442</span>
+          <br>
+          <br>
+          Email:
+          <br>
+          <span class=' taxes-highlight-jumbo'>48streetincometax@gmail.com</span>
+        </p>
+
+<br>
+<h4>Toll-Free Number: </h5><h4 class='taxes-highlight-jumbo'>1(888) 405-2320</h4>
+
+"
+  end
+
+  def self.es_contact_us_jumbo
+    return "<h4>Contactanos!</h4>
+        <p>
+          Tel&eacutefono:
+          <br>
+          <span class='taxes-highlight-jumbo'>712-263-3313</span>
+          <br>
+          <br>
+          Direcci&oacuten de Oficina:
+          <br>
+          <span class='taxes-highlight-jumbo'>109 S Main St, Denison, IA 51442</span>
+          <br>
+          <br>
+          Correo Electr&oacutenico:
+          <br>
+          <span class='taxes-highlight-jumbo'>48streetincometax@gmail.com</span>
+        </p>
+<br>
+<br>
+<h4>Linea Gratuita: </h4></h5><h4  class='taxes-highlight-jumbo'>1(888) 405-2320</h4>
+
+"
+  end
+
+  ######
+
   def self.en_contact_us
     return "<h4>Contact Us!</h4>
         <p>
           Telephone Number:
           <br>
-          712-263-3313
+          <span class='taxes-highlight'>712-263-3313</span>
           <br>
           <br>
           Office Address:
           <br>
-          109 S Main St, Denison, IA 51442
+          <span class='taxes-highlight'>109 S Main St, Denison, IA 51442</span>
           <br>
           <br>
           Email:
           <br>
-          <span class='taxes-slightly-smaller'>48streetincometax@gmail.com</span>
+          <span class='taxes-slightly-smaller taxes-highlight'>48streetincometax@gmail.com</span>
         </p>
 
 <br>
-<h4>Toll-Free Number: </h5><h4>1(888) 405-2320</h4>
+<h4>Toll-Free Number: </h5><h4 class='taxes-highlight'>1(888) 405-2320</h4>
 
 "
   end
@@ -29,21 +79,21 @@ module SidebarHelper
         <p>
           Tel&eacutefono:
           <br>
-          712-263-3313
+          <span class='taxes-highlight'>712-263-3313</span>
           <br>
           <br>
           Direcci&oacuten de Oficina:
           <br>
-          109 S Main St, Denison, IA 51442
+          <span class='taxes-highlight'>109 S Main St, Denison, IA 51442</span>
           <br>
           <br>
           Correo Electr&oacutenico:
           <br>
-          <span class='taxes-slightly-smaller'>48streetincometax@gmail.com</span>
+          <span class='taxes-slightly-smaller taxes-highlight'>48streetincometax@gmail.com</span>
         </p>
 <br>
 <br>
-<h4>Linea Gratuita: </h4></h5><h4 style='taxes-highlight-alt'>1(888) 405-2320</h4>
+<h4>Linea Gratuita: </h4></h5><h4  class='taxes-highlight'>1(888) 405-2320</h4>
 
 "
   end
@@ -56,6 +106,16 @@ module SidebarHelper
 
   def self.es_refund_status
     return "Donde est&aacute mi Reembolso?"
+  end
+
+  ######
+
+  def self.en_refund_transfer
+    return "Refund Transfer (Direct Deposit)"
+  end
+
+  def self.es_refund_transfer
+    return "Transferida de Reembolso (Deposito Directo)"
   end
 
   ######
@@ -438,11 +498,11 @@ end
   ######
 
   def self.en_iowa_information
-    return "Iowa Tax Information"
+    return "State Tax Information"
   end
 
   def self.es_iowa_information
-    return "Informacci&oacuten de Impuestos del Estado de Iowa"
+    return "Informacci&oacuten de Impuestos de tu Estado"
   end
 
   ######
