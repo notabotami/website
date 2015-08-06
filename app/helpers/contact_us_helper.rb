@@ -175,7 +175,7 @@ module ContactUsHelper
   end
 
   def self.es_asterisk1
-    return "indica que es necesario"
+    return "indica que esta &aacuterea esta necesaria"
   end
 
   #####
