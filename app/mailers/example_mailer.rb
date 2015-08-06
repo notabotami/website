@@ -12,14 +12,21 @@ class ExampleMailer < ActionMailer::Base
     logger.tagged("mailer contact option") {logger.debug @contact_option}
 
     time = Time.new
-    mail(:to => "48streetincometax@gmail.com", :subject => "48thStreetIncomeTax Contact Form - " + @name + " - " +time.strftime("%Y-%m-%d %H:%M:%S %Z") )
+    mail(:to => "48streetincometax@gmail.com", :subject => "48thStreet Contact Form - " + @name + " - " +time.strftime("%Y-%m-%d %H:%M:%S %Z") )
   end
 
-  def employment_email(file)
+  def employment_email(email,name,phone,contact_option,info,prefer_spanish,file)
+
+    @email = email
+    @name = name
+    @phone = phone
+    @contact_option= contact_option
+    @info= info
+    @prefer_spanish=prefer_spanish
 
     attachments["#{file.original_filename}"] = File.read(file.path)
     mail(:to => "blurgiamtrash@gmail.com",
-         :subject => "Sending attachment")
+         :subject => '48thStreet Employee Application - ' + @name + ' - ' + time.strftime("%Y-%m-%d %H:%M:%S %Z"))
   end
 
 
