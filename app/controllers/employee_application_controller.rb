@@ -57,7 +57,7 @@ class EmployeeApplicationController < ApplicationController
       flash[:success]=ContactUsHelper.send(ApplicationHelper.get_language_tag + "contact_us_success")
       #TODO UNCOMMENT for production
       logger.tagged("employee_application_submit") {logger.debug "Made it!"}
-      #ExampleMailer.employment_email(@email,@name,@phone,@contact_option,@question,@prefer_spanish,@file).deliver!
+      ExampleMailer.employment_email(@email,@name,@phone,@contact_option,@question,@prefer_spanish,@file).deliver!
       redirect_to "/employee_application"
     end
 

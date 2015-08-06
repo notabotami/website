@@ -253,7 +253,7 @@ module ApplicationHelper
   end
 
   def self.es_admin_assistant
-    return "Asistente Administrivo"
+    return "Asistente Administrativo"
   end
 
   #####

@@ -1,5 +1,16 @@
 module EmployeeApplicationHelper
 
+  def self.en_employee_application_para
+    return "Apply to join our team of professionals serving Denison and surrounding
+areas."
+  end
+
+  def self.es_employee_application_para
+    return "Aplique para formar parte de nuestro equipo de profesionales sirviendo en Denison y sus alrededores."
+  end
+
+  ######
+
   def self.en_info
     return "Write a little bit about yourself"
   end

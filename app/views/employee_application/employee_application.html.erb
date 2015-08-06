@@ -1,6 +1,7 @@
 <h3 class="taxes-centered">Employee Application</h3>
 
-<p>Apply to join our team of professionals serving Denison and surrounding
-areas.</p>
+<p>
+<%=EmployeeApplicationHelper.send(ApplicationHelper.get_language_tag + "employee_application_para").html_safe %>
+</p>
 
 <%= render 'application_form' %>
