@@ -14,10 +14,13 @@ BastaScheduler::Application.routes.draw do
   get '/employment_email', to: 'email#employment_email'
   get '/itin', to: 'itin#itin'
   get '/same_sex_marriage', to: 'same_sex_marriage#same_sex_marriage'
+  get '/photo_gallery', to: 'photo_gallery#photo_gallery'
 
   get '/change_language', to: 'application#change_language'
   get '/change_to_english', to: 'application#change_to_english'
   get '/change_to_spanish', to: 'application#change_to_spanish'
+
+
 
   #get '/login', to: 'sessions#login'
   #post '/login_create', to: 'sessions#create'

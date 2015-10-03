@@ -126,6 +126,17 @@ module ApplicationHelper
 
   #####
 
+  def self.en_photo_gallery
+    return "photo gallery"
+  end
+
+  def self.es_photo_gallery
+    return "galería de fotos"
+  end
+
+
+  #####
+
   def self.en_privacy
     return "privacy policy"
   end
