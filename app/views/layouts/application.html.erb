@@ -123,12 +123,14 @@
                 <br>
                 <br>
                 <br>
+                <div hidden>
                 <%= image_tag("blanca.jpg", :class => 'taxes-centered-image img-circle img img-responsive') %>
                 <p class="taxes-centered taxes-picture-caption taxes-picture-caption-title">Blanca Morales</p>
                 <hr>
                 <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "tax_preparer_female").html_safe %></p>
                 <hr>
                 <p class="taxes-centered taxes-picture-caption"> <%= ApplicationHelper.send(ApplicationHelper.get_language_tag + "admin_assistant").html_safe %></p>
+                </div>
                 <br>
                 <br>
                 <br>
@@ -221,8 +223,8 @@
 
                   </div>
                   <div class="col-md-4 taxes-spaced">
-
-                    <%= link_to(image_tag("better_business_bureau_logo_aplus.png", :class => 'taxes-centered-image'), "http://www.bbb.org/iowa/business-reviews/tax-return-preparation/48th-street-income-tax-service-in-denison-ia-32046966") %>
+                  
+                    <%= link_to(image_tag("acceptance_agent.jpg", :class => 'taxes-centered-image'), "http://www.irs.gov/Individuals/Acceptance-Agents--Iowa") %>
                   </div>
                 </div>
 
@@ -241,7 +243,7 @@
 
               <div class="row">
                 <div class="col-md-12 taxes-spaced taxes-centered-image">
-                  <%= link_to(image_tag("acceptance_agent.jpg", :class => 'taxes-centered-image'), "http://www.irs.gov/Individuals/Acceptance-Agents--Iowa") %>
+
                 </div>
               </div>
 
