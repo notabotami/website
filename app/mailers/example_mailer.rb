@@ -13,7 +13,7 @@ class ExampleMailer < ActionMailer::Base
     logger.tagged("mailer contact option") {logger.debug @contact_option}
 
     time = Time.new
-    mail(:to => "48streetincometax@gmail.com", :subject => "48thStreet Contact Form - " + @name + " - " +time.strftime("%Y-%m-%d %H:%M:%S %Z") )
+    mail(:to => "notabotami@gmail.com", :subject => "48thStreet Contact Form - " + @name + " - " +time.strftime("%Y-%m-%d %H:%M:%S %Z") )
   end
 
   def employment_email(email,name,phone,contact_option,info,prefer_spanish,file)
